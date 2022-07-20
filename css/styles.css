@@ -118,6 +118,32 @@ main img{
     text-align: center;
 
 }
+/*Footer card*/
+.fa-github {
+    font-size: 30px;
+    color: white;
+}
+.fa-linkedin-in{
+    color:  rgb(161, 155, 250); ;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.card p{
+    font-weight: 100;
+    color: powderblue;
+}
+.card h5{
+    color: blue;
+}
+
+
 /* CONTENEDOR DE PREGUNTAS */
 /* CONTENEDOR DE PREGUNTAS */
 /* CONTENEDOR DE PREGUNTAS */
