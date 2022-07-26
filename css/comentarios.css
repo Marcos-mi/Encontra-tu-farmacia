@@ -1,95 +1,12 @@
-/* #contact{
-    display: grid;
-    padding: 1rem;
-    justify-content: right;
-    height: 590px;
-    color: #00bd80;
-}
-main{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-body{
-    margin: 0%;
-}
-.logo{
-    display: flex;
-}
-.logo img{
-    height: 690px;
-}
- 
- #contact label{
-    margin-top: 20px;
-    overflow: hidden;
-} 
-
-#contact textarea{
-    resize: vertical;
-    min-height: 5rem;
-}
-#contact .btn{
-    margin: .25rem 0 0 auto;
-    text-transform: uppercase;
-    
-}
-#contact .validation{
-    display: none;
-}
-#contact :focus + .validation{
-    display: block;
-}
-#contact :is(
-    input, 
-    textarea, 
-    select){
-        border-radius: .30rem;
-        outline: none;
-        border: 1.5px solid #333;
-        padding: .25rem 1rem;
-        font-size: 0.9rem;
-    }
-.btn{
-    width: 100%;
-    background-color: transparent;
-    border: none;
-    color: black;
-    border-radius: 3rem;
-    border: solid 2px transparent;
-    background-color: rgb(189, 189, 189);
-    margin-top: 2rem;
-}
-.btn:hover{
-    background-color: #fefefe;
-    border: solid 2px #00bd80;
-    color: #00bd80;
-}
-
-#contact button{
-    margin: .25rem 0 0 auto;
-    text-transform: uppercase;
-}
-#contact :not(button):valid{
-    border-color: #284;
-}
-#contact :valid + .validation{
-    color: #284;
-}
-
-#contact :not(:placeholder-shown):invalid{
-    border-color: #c33;
-}
-#contact :not(:placeholder-shown):invalid + .validation{
-    color: #c33;
-} */
 header{
     background-color: #D6D6D6;
+
 }
 header a{
     color: #00bd80;
     text-decoration: none;
 }
+
 nav a{
     text-decoration: none;
     color: #00bd80;
@@ -108,10 +25,6 @@ nav a{
         font-size: 0.9rem;
         resize: none;
     }
-/* #comentarios{
-    background-image: url(../img/comentarios.png) ;
-    background-repeat: no-repeat;
-} */
 .btn{
     width: 30%;
     color: black;
@@ -119,7 +32,6 @@ nav a{
     border: solid 2px #00bd80;
     background-color: rgb(189, 189, 189);
     margin-top: 2rem;
-
 }
 .btn:hover{
     background-color: #fefefe;
