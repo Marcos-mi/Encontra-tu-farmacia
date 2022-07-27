@@ -82,20 +82,11 @@ main img {
 }
 
 .slider-frame {
-<<<<<<< HEAD
 
     width: 960px;
     height: auto;
     margin: 10px auto 0;
     overflow: hidden;
-=======
-    
-	width: 960px;
-    height:auto ;
-	margin:10px auto 0;
-	overflow: hidden;
-    margin-top: 2.5rem;
->>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
 }
 
 .slider-frame ul {
@@ -281,6 +272,7 @@ main img {
 
 .card p {
     font-size: 14px;
+<<<<<<< HEAD
 
     font-weight: 1000;
     color: powderblue;
@@ -294,6 +286,11 @@ main img {
     font-size: 14px;
     font-weight: 900;
     color: white;
+=======
+    
+    font-weight: 1000;
+    color: powderblue;
+>>>>>>> 91a1b4440ac73fbfa46076c479eb1d2c69d2a524
 }
 .card h5{
     font-weight: 400;
