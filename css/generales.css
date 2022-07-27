@@ -1,3 +1,11 @@
+/* Importo Letra */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* REGLAS OPINION */
 @import url(./opinion.css);
+
+/* REGLAS PREGUNTAS FRECUENTES */
 @import url(./preguntasfrecuentes.css);
+
+/* REGLAS HEADER */
 @import url(./header.css);
