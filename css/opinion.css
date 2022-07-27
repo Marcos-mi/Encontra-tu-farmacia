@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
 .logo img{
     height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
    align-items: center;/*Alineo los elementos Verticalmente*/
@@ -26,9 +29,11 @@ body{
 }
 .title p{
     text-align: center;
-     font-size: 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Arvo', sans-serif;
   }
 nav a{
+    font-family: 'Arvo', sans-serif;
     text-decoration: none;
     color: #00bd80;
 }
@@ -48,7 +53,11 @@ nav a:hover{
         padding: .25rem 1rem;
         font-size: 0.9rem;
         resize: none;
+        font-family: 'Arvo', sans-serif;
     }
+label{
+    font-family: 'Arvo', sans-serif;
+}
 .btn{
     width: 30%;
     color: black;
@@ -64,4 +73,9 @@ nav a:hover{
 }
 form p{
     color:  whitesmoke;
+    font-family: 'Arvo', sans-serif;
+}
+h1,
+h2{
+    font-family: 'Arvo', sans-serif;
 }
