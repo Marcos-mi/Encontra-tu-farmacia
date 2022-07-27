@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* navbar */
+.logo img{
+    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logoNav img{
+    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logo-celular{
+    height: 50px;
+}
+header{
+    background-color: #D6D6D6;
+}
+header a{
+    color: #00bd80;
+    text-decoration: none;
+}
+body{
+  background-image: url(../img/preguntasfrecuentes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Arvo', sans-serif;
+  }
+nav a{
+    font-family: 'Arvo', sans-serif;
+    text-decoration: none;
+    color: #00bd80;
+}
+nav a:hover{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+#grup-dev{
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #00bd8a;
+}
+#cont-dev{
+    font-size: 1.5rem;
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 200px;
+   
+    
+}
+
+.dev img{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-right: 1rem;
+    justify-content: center;
+
+}
+.dev{
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: gap;
+    color: #00bd8a;
+    margin: 1rem;
+}
+#red{
+    background-color: #00bd8a ;
+    width: 100%;
+    height: 40px;
+    text-align:left;
+}
+#red img{
+    width: 25px;
+    height: 25px;
+   border-radius: 10px;
+   box-shadow: 1px;
+}
+#red button{
+    border-radius: 25px;
+}
+#grup-dev h2{
+    font-size: 1rem;
+    color: black;
+}

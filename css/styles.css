@@ -15,40 +15,40 @@ body{
     box-sizing: border-box;
    
 }
-/*FOOTER*/
-header{
-    border: auto;
-    display: flex; /*Quiero que se vea horizontal*/
-    justify-content: space-between; /*para que los contenidos dentro del header se separen  uno este es A y el otro en B*/
-    min-height: 70px; /*Le doy un min al alto para que se adapte al responsive*/
-    align-items: center;/*Alineo los elementos Verticalmente*/
-    background-color: #D6D6D6;
-    padding: 9px; /*Mpver los elementos de su orden*/
-    font-family: 'Anton', sans-serif;
-    font-size: 1.5rem;
 
-
-}
-.logo{
-  display: flex; /*Agarro todo el contenido que quiero que sea horizontal*/
-  align-items: center;/*Alineo los elementos Verticalmente*/
-}
+/* navbar */
 .logo img{
-     height:  50px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-    align-items: center;/*Alineo los elementos Verticalmente*/
-    margin-right: 53px;/*Separo el texto de la imagen*/
+    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
 }
-a{
-    text-decoration: none;/*Le saco los hipervinculos raros*/
-    color: #20D1A1;/*Le doy color*/
-    padding-right: 20px;/*Doy espacio entre palabra y palabra*/
+.logoNav img{
+    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
 }
-
+.logo-celular{
+    height: 50px;
+}
+header{
+    background-color: #D6D6D6;
+}
+header a{
+    color: #00bd80;
+    text-decoration: none;
+}
+.title p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Arvo', sans-serif;
+  }
+nav a{
+    font-family: 'Arvo', sans-serif;
+    text-decoration: none;
+    color: #00bd80;
+}
 nav a:hover{
-    color: grey;/*Le doy un estilo a la hora de pasar el scroll*/
-}
-h2:hover{
-    color: grey;/*Le doy un estilo a la hora de pasar el scroll*/
+    color: whitesmoke;
 }
 
 /*//////////////////////////////////////////////////////////////////////////*/

@@ -1,0 +1,39 @@
+/* navbar */
+.logo img{
+    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logoNav img{
+    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logo-celular{
+    height: 50px;
+}
+header{
+    background-color: #D6D6D6;
+}
+header a{
+    color: #00bd80;
+    text-decoration: none;
+}
+body{
+  background-image: url(../img/preguntasfrecuentes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Arvo', sans-serif;
+  }
+nav a{
+    font-family: 'Arvo', sans-serif;
+    text-decoration: none;
+    color: #00bd80;
+}
+nav a:hover{
+    color: whitesmoke;
+}

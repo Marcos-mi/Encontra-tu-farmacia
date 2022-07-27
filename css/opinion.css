@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
-
+/* navBar */
 .logo img{
     height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
    align-items: center;/*Alineo los elementos Verticalmente*/
@@ -17,7 +17,6 @@
 header{
     background-color: #D6D6D6;
 }
-
 header a{
     color: #00bd80;
     text-decoration: none;
@@ -40,6 +39,12 @@ nav a{
 nav a:hover{
     color: whitesmoke;
 }
+/* Titulos */
+h1,
+h2{
+    font-family: 'Arvo', sans-serif;
+}
+/* formulario */
 #contact {
     color: whitesmoke;
 }
@@ -73,9 +78,5 @@ label{
 }
 form p{
     color:  whitesmoke;
-    font-family: 'Arvo', sans-serif;
-}
-h1,
-h2{
     font-family: 'Arvo', sans-serif;
 }

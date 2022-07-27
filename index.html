@@ -13,20 +13,50 @@
 
 </head>
 <body>
-    <header>
-        <a href="#" class="logo">
-            <img src="img/logo-transparente.png" alt="logo de farma">
-            <h2 class="nombre-proyecto">ZonaFarm</h2>
-        </a href="#">
-        <nav>
-            <a href="#" class="nav-link">Inicio</a>
-            <a href="#" class="nav-link">Info</a>
-            <a href="#" class="nav-link">Pregunta Frecuentes</a>
-            <a href="opinion.html" class="nav-link">Tu opinion nos interesa</a>
+     <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html"><img src="img/logo-transparente.png"  alt="logo" class="logo-celular"></a>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item px-5 py-2 logoNav">
+                           <img src="img/logo-transparente.png" alt="logo" class="d-none">
+                        </li>
+                        <li class="nav-item px-5 py-3">
+                            <a href="index.html" class="logo">
+                                <h2>ZonaFarm</h2>
+                            </a> 
+                        </li>
+                         <li class="nav-item px-5 py-4">
+                           <a class="nav-link>" href="#">Inicio</a>
+                        </li>
+                         <li class="nav-item px-5 py-4">
+                           <a class="nav-link>" href="buscatufarmacia.html">Busca tu farmacia</a>
+                        </li>
+                        <li class="nav-item px-5  py-4">
+                            <a class="nav-link>" href="nosotros.html">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item px-5 py-4">
+                            <a class="nav-link>" href="opinion.html">Dejanos tu comentarios</a>
+                        </li>
+                    </ul>
+                    <div>
+                    </div>
+                </div>
+            </div>
         </nav>
-    </header>
+    </header>  
 
     <main class="main">
+        <div class="row">
+            <div class="col-12 text-center text-white">
+                <h1>Titulo del carrusel</h1>
+            </div>
+        </div>
         <div class="slider-frame">
             <ul>
                 <li><img src="./img/carrusel1.jpeg" alt=""></li>
@@ -35,12 +65,12 @@
                 <li><img src="./img/carrusel4.jpeg" alt=""></li>
             </ul>
         </div> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </main>
     <footer>
         <article class="logoPreguntasFrecuentes">
         <h1>Preguntas Frecuentes</h1> 
         </article>
-        
         <div class="preguntas">
             <div class="contenedor-preguntas">
                 <div class="contenedor-pregunta ">
@@ -71,57 +101,9 @@
         </div>
         <script src="./js/main.js"></script>
     </footer>
-    <footer id="grup-dev">
-        <h1>¡GRUPO DEV A CARGO DE LA WEB!</h1>
+   
 
-        <section id="cont-dev" >
-            <div class="dev">
-                <a href="http://linkedin.com/in/juan-yovera" target="_blank" >
-                <img  src="img/JuanYovera.jpg" alt="juan">Juan Yovera</a>
-            </div>
-            <div class="dev">
-                <a href="http://linkedin.com/in/lucasivanbarrios" target="_blank" >
-                <img src="img/lucasBarrios.jpg " alt="lucas" >Lucas Barrios</a>
-                </div>
-            <div class="dev">
-                <a href="http://linkedin.com/in/imanol-eduardo-oliva" target="_blank" >
-                <img src="img/imanolOliva.jpg" alt="imanolOliva" >IMANOL OLIVA</a>
-                </div>
-            <div class="dev">
-                <a href="http://linkedin.com/in/nicolasquispe" target="_blank" >
-                <img src="img/nicolasQuispe.jpg" alt="Nicolas" >NICOLAS QUISPE</a>
-            </div>
-            <div class="dev">
-                    <a href="https://www.linkedin.com/in/marcos-mi%C3%B1o-1228a8213/" target="_blank" >
-                    <img src="img/marcosMiño.jpg" alt="Marcos" >Marcos Miño</a>
-            </div>
-        </section>
-
-        <section id="red">
-            <div id="red-social">
-                <a href="http://http://www.pescar.org.ar" target="_blank">
-                <img src="img/pescar.jfif" alt="fundacion pescar"></a>
-            </div>
-            <div id="red-social">
-                <a href="http://www.linkedin.com" target="_blank">
-                    <img src="img/linkedin.png" alt="linkedin"></a>
-            </div>
-            <button id="red-social">
-                <a href="http://twitter.com" target="_blank">
-                    <img src="img/twitter.png" alt="twitter"></a>
-            </div>
-            <div id="red-social">
-                <a href="http://www.facebook.com" target="_blank">
-                <img src="img/facebook.png" alt="facebook"></a>
-            </div>
-            <div id="red-social">
-                <a href="http://www.msn.com" target="_blank">
-                <img src="img/correo.jpg" alt="correo"></a>
-            </div>
-        </section>
-        <h2>©Todos Los Derechos Reservados 2022</h2>
-        <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    </footer>
+   
+       
 </body>
 </html>
