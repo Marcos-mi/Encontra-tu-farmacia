@@ -4,25 +4,39 @@
    margin-right: 53px;/*Separo el texto de la imagen*/
 }
 .logoNav img{
-    height:  53px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
    align-items: center;/*Alineo los elementos Verticalmente*/
    margin-right: 53px;/*Separo el texto de la imagen*/
 }
+.logo-celular{
+    height: 50px;
+}
 header{
     background-color: #D6D6D6;
-
 }
+
 header a{
     color: #00bd80;
     text-decoration: none;
 }
-
+body{
+  background-image: url(../img/fondo-comentarios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title p{
+    text-align: center;
+     font-size: 1.2rem;
+  }
 nav a{
     text-decoration: none;
     color: #00bd80;
 }
+nav a:hover{
+    color: whitesmoke;
+}
 #contact {
-    color: #00bd80;
+    color: whitesmoke;
 }
 #contact :is(
     input, 
@@ -49,5 +63,5 @@ nav a{
     color: #00bd80;
 }
 form p{
-    color:  #00bd80;
+    color:  whitesmoke;
 }
