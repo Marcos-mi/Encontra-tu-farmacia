@@ -82,11 +82,20 @@ main img {
 }
 
 .slider-frame {
+<<<<<<< HEAD
 
     width: 960px;
     height: auto;
     margin: 10px auto 0;
     overflow: hidden;
+=======
+    
+	width: 960px;
+    height:auto ;
+	margin:10px auto 0;
+	overflow: hidden;
+    margin-top: 2.5rem;
+>>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
 }
 
 .slider-frame ul {
@@ -166,6 +175,7 @@ main img {
     text-align: center;
 
 }
+<<<<<<< HEAD
 
 /*titulo card*/
 /* .titulo {
@@ -205,16 +215,40 @@ main img {
 
 }
 
+=======
+/*titulo card*/
+.titulo{
+    background-color: #20D1A1;
+}
+.titulo h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 5rem;
+}
+.titulo h1:hover{
+    font-size: 8rem;
+}
+/*Footer card*/
+.container{
+    background-image:url(../img/carrusel1.jpeg);
+    
+}
+>>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
 .fa-github {
     font-size: 30px;
     color: white;
     padding: 7px 0 0 0;
 }
+<<<<<<< HEAD
 
 .fa-envelope {
     color: rgb(161, 155, 250);
     ;
     background-color: white;
+=======
+.fa-envelope{
+    color:  rgb(161, 155, 250); ;
+    background-color:white;
+>>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
     font-size: 20px;
     border: 0px;
     height: 32px;
@@ -223,10 +257,16 @@ main img {
     padding: 7px 0 0 0;
     border-radius: 20px;
     margin: 0 4px;
+<<<<<<< HEAD
 
 }
 
 .fa-linkedin-in {
+=======
+    
+}
+.fa-linkedin-in{
+>>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
     background-color: white;
     font-size: 20px;
     border: 0px;
@@ -237,6 +277,7 @@ main img {
     border-radius: 80px;
     margin: 0 4px;
 }
+<<<<<<< HEAD
 
 .card p {
     font-size: 14px;
@@ -248,10 +289,21 @@ main img {
 .card h5 {
     font-weight: 400;
     color: #202124;
+=======
+.card p{
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+}
+.card h5{
+    font-weight: 400;
+    color:#202124;
+>>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
     font-family: 'Anton', sans-serif;
 }
 
 .card img {
+<<<<<<< HEAD
 
     border-radius: 30%;
 
@@ -277,6 +329,30 @@ main img {
     text-align: center;
     font-size: 1.2rem;
 }
+=======
+   
+    border-radius:30%;
+    
+    box-shadow: 2px 2px rgb(195, 195, 225);
+    
+
+}
+.card{
+    height: 32%;
+    background-color:#20D1A1;
+    box-shadow: 5px 5px rgb(195, 195, 225);
+    overflow: hidden;
+    
+}  
+ .card:hover{
+    height: auto;
+    
+ }  
+ .title p{
+   text-align: center;
+    font-size: 1.2rem;
+ }
+>>>>>>> 35ddad969ce3d1cd82b71f04bb77064b05f25549
 
 
 
