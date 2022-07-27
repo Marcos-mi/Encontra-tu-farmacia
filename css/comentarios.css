@@ -1,3 +1,13 @@
+.logo img{
+    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logoNav img{
+    height:  53px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
 header{
     background-color: #D6D6D6;
 
