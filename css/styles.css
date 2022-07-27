@@ -1,147 +1,220 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 /* RESPONSIVE */
-@media (max-width:700px){ 
+@media (max-width:700px) {
+
     header,
     .logo,
     div img,
     footer h1,
-    h2{
+    h2 {
         flex-direction: column;
     }
 }
-body{
-    margin: auto; /*Con esto quito los margenes para que se diferencia del background*/
-    background-color:whitesmoke;
+
+body {
+    margin: auto;
+    /*Con esto quito los margenes para que se diferencia del background*/
+    background-color: whitesmoke;
     box-sizing: border-box;
-   
+
 }
+
 /*FOOTER*/
-header{
+header {
     border: auto;
-    display: flex; /*Quiero que se vea horizontal*/
-    justify-content: space-between; /*para que los contenidos dentro del header se separen  uno este es A y el otro en B*/
-    min-height: 70px; /*Le doy un min al alto para que se adapte al responsive*/
-    align-items: center;/*Alineo los elementos Verticalmente*/
+    display: flex;
+    /*Quiero que se vea horizontal*/
+    justify-content: space-between;
+    /*para que los contenidos dentro del header se separen  uno este es A y el otro en B*/
+    min-height: 70px;
+    /*Le doy un min al alto para que se adapte al responsive*/
+    align-items: center;
+    /*Alineo los elementos Verticalmente*/
     background-color: #D6D6D6;
-    padding: 9px; /*Mpver los elementos de su orden*/
+    padding: 9px;
+    /*Mpver los elementos de su orden*/
     font-family: 'Anton', sans-serif;
     font-size: 1.5rem;
 
 
 }
-.logo{
-  display: flex; /*Agarro todo el contenido que quiero que sea horizontal*/
-  align-items: center;/*Alineo los elementos Verticalmente*/
-}
-.logo img{
-     height:  50px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-    align-items: center;/*Alineo los elementos Verticalmente*/
-    margin-right: 53px;/*Separo el texto de la imagen*/
-}
-a{
-    text-decoration: none;/*Le saco los hipervinculos raros*/
-    color: #20D1A1;/*Le doy color*/
-    padding-right: 20px;/*Doy espacio entre palabra y palabra*/
+
+.logo {
+    display: flex;
+    /*Agarro todo el contenido que quiero que sea horizontal*/
+    align-items: center;
+    /*Alineo los elementos Verticalmente*/
 }
 
-nav a:hover{
-    color: grey;/*Le doy un estilo a la hora de pasar el scroll*/
+.logo img {
+    height: 50px;
+    /*Le doy una altura minima 50 px para que me quede tipo logo*/
+    align-items: center;
+    /*Alineo los elementos Verticalmente*/
+    margin-right: 53px;
+    /*Separo el texto de la imagen*/
 }
-h2:hover{
-    color: grey;/*Le doy un estilo a la hora de pasar el scroll*/
+
+a {
+    text-decoration: none;
+    /*Le saco los hipervinculos raros*/
+    color: #20D1A1;
+    /*Le doy color*/
+    padding-right: 20px;
+    /*Doy espacio entre palabra y palabra*/
+}
+
+nav a:hover {
+    color: grey;
+    /*Le doy un estilo a la hora de pasar el scroll*/
+}
+
+h2:hover {
+    color: grey;
+    /*Le doy un estilo a la hora de pasar el scroll*/
 }
 
 /*//////////////////////////////////////////////////////////////////////////*/
 /*MAIN*/
-main img{
+main img {
     height: 600px;
-} 
+}
+
 .slider-frame {
-    
-	width: 960px;
-    height:auto ;
-	margin:10px auto 0;
-	overflow: hidden;
+
+    width: 960px;
+    height: auto;
+    margin: 10px auto 0;
+    overflow: hidden;
 }
 
 .slider-frame ul {
     width: 400%;
-    
-	display: flex;
-	padding: 0;
-	
-	animation: slide 16s infinite alternate ease-in-out;
+
+    display: flex;
+    padding: 0;
+
+    animation: slide 16s infinite alternate ease-in-out;
 }
 
 .slider-frame ul li {
-	width: 100%;
+    width: 100%;
     height: 600px;
-	list-style: none;
+    list-style: none;
 }
 
 .slider-frame div ul li img {
-	width: 80%;
-   
+    width: 80%;
+
 }
 
 @keyframes slide {
-	0% {margin-left: 5%;}
-	20% {margin-left: 5%;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
+    0% {
+        margin-left: 5%;
+    }
+
+    20% {
+        margin-left: 5%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
 }
-.main{
-   
-	background-color: #D6D6D6;
+
+.main {
+
+    background-color: #D6D6D6;
 }
+
 /*FOOTER*/
-.logoPreguntasFrecuentes img{
+.logoPreguntasFrecuentes img {
     float: right;
     height: 500px;
     width: 600px;
     position: relative;
     top: 150px;
 }
-.logoPreguntasFrecuentes h1{
-    color:#20D1A1;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+.logoPreguntasFrecuentes h1 {
+    color: #20D1A1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4rem;
     text-align: center;
     padding: 10px;
     text-align: center;
 
 }
+
 /*titulo card*/
-.titulo{
-    background-color: #20D1A1;
+/* .titulo {
+    background-color: hsl(158, 94%, 82%);
+
+} */
+
+
+/* titulo dev*/
+#titulo-dev {
+
+    color: black;
+
+
 }
-.titulo h1{
-    font-family: 'Anton', sans-serif;
-    font-size: 5rem;
+
+#titulo-dev span {
+    transform: translate(-50%, -50%);
+    font-size: 13vh;
+    font-weight: 800;
+    box-shadow: 0.45em, 0.40em, 0.20em rgb(146, 142, 142);
+    border-color: beige;
 }
-.titulo h1:hover{
-    font-size: 8rem;
+
+#titulo-dev span:not(:first-child) {
+    margin-left: -0.23em;
+
 }
+
+#titulo-dev span:hover {
+    font-size: 15vh;
+}
+
 /*Footer card*/
-.container{
-    background-image:url(../img/carrusel1.jpeg);
-    
+.container {
+    background-image: url(../img/carrusel1.jpeg);
+
 }
+
 .fa-github {
     font-size: 30px;
     color: white;
     padding: 7px 0 0 0;
 }
-.fa-envelope{
-    color:  rgb(161, 155, 250); ;
-    background-color:white;
+
+.fa-envelope {
+    color: rgb(161, 155, 250);
+    ;
+    background-color: white;
     font-size: 20px;
     border: 0px;
     height: 32px;
@@ -150,9 +223,10 @@ main img{
     padding: 7px 0 0 0;
     border-radius: 20px;
     margin: 0 4px;
-    
+
 }
-.fa-linkedin-in{
+
+.fa-linkedin-in {
     background-color: white;
     font-size: 20px;
     border: 0px;
@@ -163,41 +237,46 @@ main img{
     border-radius: 80px;
     margin: 0 4px;
 }
-.card p{
+
+.card p {
     font-size: 14px;
-    
+
     font-weight: 1000;
     color: powderblue;
 }
-.card h5{
+
+.card h5 {
     font-weight: 400;
-    color:#202124;
+    color: #202124;
     font-family: 'Anton', sans-serif;
 }
 
 .card img {
-   
-    border-radius:30%;
-    
+
+    border-radius: 30%;
+
     box-shadow: 2px 2px rgb(195, 195, 225);
-    
+
 
 }
-.card{
+
+.card {
     height: 32%;
-    background-color:#20D1A1;
+    background-color: #20D1A1;
     box-shadow: 5px 5px rgb(195, 195, 225);
     overflow: hidden;
-    
-}  
- .card:hover{
+
+}
+
+.card:hover {
     height: auto;
-    
- }  
- .title p{
-   text-align: center;
+
+}
+
+.title p {
+    text-align: center;
     font-size: 1.2rem;
- }
+}
 
 
 
@@ -207,13 +286,13 @@ main img{
 /* CONTENEDOR DE PREGUNTAS */
 
 
-.contenedor-preguntas{
+.contenedor-preguntas {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
 
-.contenedor-pregunta{
+.contenedor-pregunta {
     /* background:white; */
     padding: 20px;
     border: 2px solid transparent;
@@ -222,23 +301,26 @@ main img{
     transition: .3s ease all;
     cursor: pointer;
 }
-.contenedor-pregunta:hover{
+
+.contenedor-pregunta:hover {
     color: green;
 }
+
 /* SECCION PREGUNTAS */
 /* SECCION PREGUNTAS */
 /* SECCION PREGUNTAS */
 /* SECCION PREGUNTAS */
 
-.pregunta{
+.pregunta {
     font-weight: 500;
     font-size: 25px;
     line-height: 20px;
-    display:flex;
+    display: flex;
     justify-content: space-between;
-    
+
 }
-.pregunta img{
+
+.pregunta img {
     width: 12px;
 }
 
@@ -248,31 +330,26 @@ main img{
 /* SECCION RESPUESTA */
 /* SECCION RESPUESTA */
 
-.respuesta{
+.respuesta {
     color: black;
     line-height: 30px;
     font-size: 20px;
 
     max-height: 0;
     opacity: 0;
-    transition: .3s ease all; 
+    transition: .3s ease all;
 }
-.contenedor-pregunta.activa .respuesta{
+
+.contenedor-pregunta.activa .respuesta {
     opacity: 1;
     margin-top: 20px;
     border-bottom: 1px solid green;
 }
-.contenedor-pregunta.activa img{
-   transform: rotate(25deg);
+
+.contenedor-pregunta.activa img {
+    transform: rotate(25deg);
 }
 
 /*  */
 /*  */
 /*  */
-
-
-
-
-
-
-
