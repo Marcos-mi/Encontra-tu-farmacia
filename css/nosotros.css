@@ -40,7 +40,9 @@ nav a:hover{
     color: whitesmoke;
 }
 
-
+.active{
+    color: black;
+}
 
 
 

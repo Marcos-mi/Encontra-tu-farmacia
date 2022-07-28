@@ -80,3 +80,6 @@ form p{
     color:  whitesmoke;
     font-family: 'Arvo', sans-serif;
 }
+.active{
+    color: black;
+}
