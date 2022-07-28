@@ -39,6 +39,11 @@ nav a{
 nav a:hover{
     color: whitesmoke;
 }
+.active{
+    border: 1px solid #00bd80;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
 /* Titulos */
 h1,
 h2{
@@ -80,9 +85,7 @@ form p{
     color:  whitesmoke;
     font-family: 'Arvo', sans-serif;
 }
-.active{
-    color: black;
-}
+
 
 /* FOOTER  */
 
