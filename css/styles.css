@@ -104,153 +104,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', end
 }
 
 
-/*titulo card*/
-.titulo{
-    background-color: #20D1A1;
-}
-.titulo h1{
-    font-family: 'Arvo', sans-serif;
-    font-size: 5rem;
-}
-.titulo h1:hover{
-    font-size: 8rem;
-}
-
-/*Footer card*/
-.fa-github {
-    font-size: 30px;
-    color: white;
-    padding: 7px 0 0 0;
-}
-.fa-envelope{
-    color:  rgb(161, 155, 250); ;
-    background-color:white;
-    font-size: 20px;
-    border: 0px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 7px 0 0 0;
-    border-radius: 20px;
-    margin: 0 4px;
-    
-}
-.fa-linkedin-in{
-    background-color: white;
-    font-size: 20px;
-    border: 0px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 8px 0 0 0;
-    border-radius: 80px;
-    margin: 0 4px;
-}
-.card p{
-    font-size: 14px;
-    font-weight: 900;
-    color: white;
-}
-.card h5{
-    font-weight: 400;
-    color:#202124;
-    font-family: 'Anton', sans-serif;
-}
-
-.card img {
-   
-    border-radius:30%;
-    
-    box-shadow: 2px 2px rgb(195, 195, 225);
-    
-
-}
-.card{
-    height: 32%;
-    background-color:#20D1A1;
-    box-shadow: 5px 5px rgb(195, 195, 225);
-    overflow: hidden;
-    
-}  
- .card:hover{
-    height: auto;
-    
- }  
- .title p{
-   text-align: center;
-    font-size: 1.2rem;
- }
-
-.active{
-    color:black ;
-} 
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-#grup-dev{
-    width: 100%;
-    font-family: 'Anton', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    color: white;
-    background-color: #00bd8a;
-}
-#cont-dev{
-    font-size: 1.5rem;
-    background-color: #d6d6d6;
-    width: 100%;
-    height: 200px;
-   
-    
-}
-
-.dev img{
-    border: 1px solid black;
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    margin-right: 1rem;
-    justify-content: center;
-
-}
-.dev{
-    display: inline-flex;
-    flex-direction: row;
-    column-gap: gap;
-    color: #00bd8a;
-    margin: 1rem;
-}
-#red{
-    background-color: #00bd8a ;
-    width: 100%;
-    height: 40px;
-    text-align:left;
-}
-#red img{
-    width: 25px;
-    height: 25px;
-   border-radius: 10px;
-   box-shadow: 1px;
-}
-#red button{
-    border-radius: 25px;
-}
-#grup-dev h2{
-    font-size: 1rem;
-    color: black;
-}
-
 /* PREGUNTAS FRECUENTES */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* main{
 
-} */
 .container{
-    color: #00bd80;
     width: 780px;
     box-shadow: 7px 13px 37px rgba(0, 0, 0, .5);
     background: rgba(194,194,194,1);
@@ -267,6 +128,14 @@ section p{
     font-family: 'Avron',sans-serif;
     background-color: grey;
     transition: all .2s ease-in-out;
+    background: rgba(102,102,102,1);
+    background: -moz-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(107,107,107,1)), color-stop(21%, rgba(110,110,110,1)), color-stop(61%, rgba(0,128,105,1)), color-stop(100%, rgba(0,128,105,1)));
+    background: -webkit-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 );
 }
 section a{
     color: black;
@@ -275,9 +144,55 @@ section a{
     text-align: left;
     padding: 10px;
     border-bottom: 2px solid whitesmoke;
+    font-family: 'Avron', sans-serif;
+}
+section a:hover{
+    color: #029b6a;
+}
+section a:active{
+    text-shadow: #aeaaaa;
+    color: #37ffca;
 }
 section:target p{
     max-height: 120px;
     padding: 10px;
     
+}
+/* FOOTER */
+footer .card ,
+.list-group li{
+    background-color:#D6D6D6;
+}
+
+.titulo h1{
+    color: #00bd8a;
+}
+.titulo h1:hover{
+    color: #37ffca;
+    font-family: 'Avro', sans-serif;
+}
+.card h5,
+.card h5 a ,
+.list-group li a {
+color: black;
+text-decoration: none;
+
+}
+.card h5:hover,
+.card h5 a:hover ,
+.list-group li a:hover{
+    color:#00bd8a ;
+    
+}
+
+.list-group-item p {
+    font-size: 0.5rem;
+    transition: all .4s ease-in-out;
+}
+.list-group-item p:hover{
+    font-size: 1rem;
+    background-color:#aeaaaa;
+}
+.list-group-item{
+    border: none !important;
 }

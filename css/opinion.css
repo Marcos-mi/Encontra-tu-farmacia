@@ -83,3 +83,43 @@ form p{
 .active{
     color: black;
 }
+
+/* FOOTER  */
+
+footer .card ,
+.list-group li{
+    background-color:#D6D6D6;
+}
+
+.titulo h1{
+    color: #00bd8a;
+}
+.titulo h1:hover{
+    color: #37ffca;
+    font-family: 'Avro', sans-serif;
+}
+.card h5,
+.card h5 a ,
+.list-group li a {
+color: black;
+text-decoration: none;
+
+}
+.card h5:hover,
+.card h5 a:hover ,
+.list-group li a:hover{
+    color:#00bd8a ;
+    
+}
+
+.list-group-item p {
+    font-size: 0.5rem;
+    transition: all .4s ease-in-out;
+}
+.list-group-item p:hover{
+    font-size: 1rem;
+    background-color:#aeaaaa;
+}
+.list-group-item{
+    border: none !important;
+}
