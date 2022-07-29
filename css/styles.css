@@ -9,7 +9,13 @@
         flex-direction: column;
     }
 }
+.display-flex{
+    display: flex;
 
+    }
+    .margin-auto{
+        margin: 0.5rem auto;
+    }
 
 /* navbar */
 .logo img{
@@ -53,7 +59,12 @@ nav a{
 nav a:hover{
     color:#37ffca;
 }
-
+.buscador input{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #00bd80;
+    border-radius: 20px;
+}
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
 h1{
@@ -74,7 +85,8 @@ a:hover{
     color:#37ffca;
 }
 /*MAIN*/
-main img{
+/* En revision para corregir tamaños*/
+/* main img{
     height: 600px;
 } 
 .slider-frame {
@@ -94,7 +106,7 @@ background: -o-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1
 background: -ms-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
 background: linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 );
-    padding: 20px !important ;
+    padding: 20px !important;
 }
 
 .slider-frame ul {
@@ -113,8 +125,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', end
 .slider-frame div ul li img {
 	width: 80%;
    
+} 
+#carouselExampleFade span{
+    color: #00bd80;
+    background-color: #00bd80;
 }
-
 @keyframes slide {
 	0% {margin-left: 5%;}
 	20% {margin-left: 5%;}
@@ -127,9 +142,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', end
 	
 	75% {margin-left: -300%;}
 	100% {margin-left: -300%;}
+}*/
+ /* Carousel para la presentacion del 29/07/2022 */
+.carousel{
+    background: rgba(102,102,102,1);
+    background: -moz-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(107,107,107,1)), color-stop(21%, rgba(110,110,110,1)), color-stop(61%, rgba(0,128,105,1)), color-stop(100%, rgba(0,128,105,1)));
+    background: -webkit-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    background: linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 );
+}
+.carousel-item img{
+    height: 420px;
 }
 
-
+/* ////////////////////////////////////////////////////////////////// */
 /* PREGUNTAS FRECUENTES */
 *{
     margin: 0;
@@ -185,6 +214,9 @@ section:target p{
     padding: 10px;
     font-family: 'Arvo', serif;
 }
+
+
+
 /* FOOTER */
 footer .card ,
 .list-group li{
@@ -227,9 +259,19 @@ font-family: 'Arvo', serif;
 .list-group-item{
     border: none !important;
 }
+
+
+
+
+
+
+
 /* media queries */
 @media (max-width: 750px){
     .fondo-preguntas{
         width: 350px;
     } 
+    .carousel-item img{
+        height: 120px;
+    }
 }
