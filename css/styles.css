@@ -71,6 +71,7 @@ h1{
     color:#00cf98;
     font-size: 40px;
     font-weight: 900;
+    font-family: 'Arvo',sans-serif;
 
 }
 .header{
@@ -83,6 +84,9 @@ h1{
 }
 a:hover{
     color:#37ffca;
+}
+p{
+    font-family: 'Arvo',sans-serif;
 }
 /*MAIN*/
 /* En revision para corregir tamaños*/
