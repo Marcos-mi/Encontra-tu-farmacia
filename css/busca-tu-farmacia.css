@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 /* navbar */
 .logo img{
     height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
@@ -33,10 +34,13 @@ nav a{
     font-family: 'Arvo', sans-serif;
     text-decoration: none;
     color: #00bd80;
+    padding: 1px 10px;
+    margin: 0px;
 }
 nav a:hover{
-    color: whitesmoke;
+    color:#37ffca;
 }
 .active{
-    color: black;
+    border: 1px solid #00bd80;
+    border-radius: 20px;
 }

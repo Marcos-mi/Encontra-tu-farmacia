@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 /* RESPONSIVE */
 @media (max-width:700px){ 
     header,
@@ -31,6 +31,8 @@ header{
 header a{
     color: #00bd80;
     text-decoration: none;
+    font-family: 'Arvo', serif;
+    
 }
 .active{
     border: 1px solid #00bd80;
@@ -41,18 +43,36 @@ header a{
 .title p{
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Arvo', serif;
   }
 nav a{
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Arvo', serif;
     text-decoration: none;
     color: #00bd80;
 }
 nav a:hover{
-    color: whitesmoke;
+    color:#37ffca;
 }
 
 /*//////////////////////////////////////////////////////////////////////////*/
+/* TITLE */
+h1{
+    color:#00cf98;
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.header{
+    background: linear-gradient( to right ,#646e6d,#00bd80);
+    font-size: 20px;
+    color:black;
+}
+.header a{
+    color: rgb(99, 99, 99);
+}
+a:hover{
+    color:#37ffca;
+}
 /*MAIN*/
 main img{
     height: 600px;
@@ -131,7 +151,7 @@ section p{
     overflow: hidden;
     max-height: 0;
     text-align: justify;
-    font-family: 'Avron',sans-serif;
+    font-family: 'Arvo',sans-serif;
     background-color: grey;
     transition: all .2s ease-in-out;
     background: rgba(102,102,102,1);
@@ -144,13 +164,13 @@ section p{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 );
 }
 section a{
+    font-family: 'Arvo', serif;
     color: black;
     text-decoration: none;
     display: block;
     text-align: left;
     padding: 10px;
     border-bottom: 2px solid whitesmoke;
-    font-family: 'Avron', sans-serif;
 }
 section a:hover{
     color: #029b6a;
@@ -158,37 +178,42 @@ section a:hover{
 section a:active{
     text-shadow: #aeaaaa;
     color: #37ffca;
+    font-family: 'Arvo', serif;
 }
 section:target p{
     max-height: 120px;
     padding: 10px;
-    
+    font-family: 'Arvo', serif;
 }
 /* FOOTER */
 footer .card ,
 .list-group li{
     background-color:#D6D6D6;
+    font-family: 'Arvo', serif;
 }
 
 .titulo h1{
     color: #00bd8a;
+    font-family: 'Arvo', serif;
 }
 .titulo h1:hover{
     color: #37ffca;
     font-family: 'Avro', sans-serif;
+    font-family: 'Arvo', serif;
 }
 .card h5,
 .card h5 a ,
 .list-group li a {
 color: black;
 text-decoration: none;
+font-family: 'Arvo', serif;
 
 }
 .card h5:hover,
 .card h5 a:hover ,
 .list-group li a:hover{
     color:#00bd8a ;
-    
+    font-family: 'Arvo', serif;
 }
 
 .list-group-item p {
