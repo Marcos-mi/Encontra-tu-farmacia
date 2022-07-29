@@ -42,8 +42,13 @@ nav a:hover{
     border-radius: 20px;
     padding: 5px 10px;
 }
-
-
+.buscador input{
+    width: 190px;
+    padding: 10px;
+    border: 1px solid #00bd80;
+    border-radius: 20px;
+}
+/* Cards */
 *{
     margin: 0;
     padding: 0;
