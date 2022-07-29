@@ -44,6 +44,12 @@ nav a:hover{
     border-radius: 20px;
     padding: 5px 10px;
 }
+.buscador input{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #00bd80;
+    border-radius: 20px;
+}
 /* Titulos */
 h1,
 h2{
