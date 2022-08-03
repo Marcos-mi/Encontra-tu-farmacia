@@ -68,24 +68,33 @@ nav a:hover{
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
 h1{
-    color:#00cf98;
+    color:#fefeef;
     font-size: 40px;
     font-weight: 900;
     font-family: 'Arvo',sans-serif;
+    /* -webkit-box-shadow: 10px 10px 53px 0px rgba(101,214,157,1);
+-moz-box-shadow: 10px 10px 53px 0px rgba(101,214,157,1);
+box-shadow: 10px 10px 53px 0px rgba(101,214,157,1); */
+
 
 }
-.header{
-    background: linear-gradient( to right ,#646e6d,#00bd80);
+.border{
+    background: #95d5b2;
+    -webkit-box-shadow: 10px 10px 53px 0px rgba(0,255,123,1);
+    -moz-box-shadow: 10px 10px 53px 0px rgba(0,255,123,1);
+    box-shadow: 10px 10px 53px 0px rgba(0,255,123,1); 
     font-size: 20px;
-    color:black;
 }
-.header a{
-    color: rgb(99, 99, 99);
+.border a{
+    color: #ff5111;
+    text-decoration: none;
 }
 a:hover{
     color:#37ffca;
 }
 p{
+    color: #fefeff;
+    font-size: 15px;
     font-family: 'Arvo',sans-serif;
 }
 /*MAIN*/
@@ -149,14 +158,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', end
 }*/
  /* Carousel para la presentacion del 29/07/2022 */
 .carousel{
-    background: rgba(102,102,102,1);
+    /* background: rgba(102,102,102,1);
     background: -moz-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
     background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(107,107,107,1)), color-stop(21%, rgba(110,110,110,1)), color-stop(61%, rgba(0,128,105,1)), color-stop(100%, rgba(0,128,105,1)));
     background: -webkit-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
     background: -o-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
     background: -ms-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
     background: linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 ); */
+    background: #fefeef;
 }
 .carousel-item img{
     height: 420px;
