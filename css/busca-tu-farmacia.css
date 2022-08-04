@@ -13,13 +13,6 @@
 .logo-celular{
     height: 50px;
 }
-header{
-    background-color: #D6D6D6;
-}
-header a{
-    color: #00bd80;
-    text-decoration: none;
-}
 body{
   background-image: url(../img/preguntasfrecuentes.png);
   background-repeat: no-repeat;
@@ -30,12 +23,10 @@ body{
     font-size: 1.2rem;
     font-family: 'Arvo', sans-serif;
   }
-nav a{
-    font-family: 'Arvo', sans-serif;
+  nav a{
+    font-family: 'Arvo', serif;
     text-decoration: none;
     color: #00bd80;
-    padding: 1px 10px;
-    margin: 0px;
 }
 nav a:hover{
     color:#37ffca;
@@ -43,6 +34,7 @@ nav a:hover{
 .active{
     border: 1px solid #00bd80;
     border-radius: 20px;
+    padding: 5px 10px;
 }
 .buscador input{
     width: 180px;

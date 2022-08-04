@@ -14,27 +14,19 @@
 .logo-celular{
     height: 50px;
 }
-header{
-    background-color: #D6D6D6;
-}
-header a{
-    color: #00bd80;
-    text-decoration: none;
-    font-family: 'Arvo', serif;
-}
 
 .title p{
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Arvo', sans-serif;
   }
-nav a{
-    font-family: 'Arvo', sans-serif;
+  nav a{
+    font-family: 'Arvo', serif;
     text-decoration: none;
     color: #00bd80;
 }
 nav a:hover{
-    color: #37ffca;
+    color:#37ffca;
 }
 
 .active{
@@ -174,4 +166,8 @@ p{
     color: #fefefe;
     font-size: 20px;
     font-family: 'Arvo', serif;
+    -webkit-box-shadow: 10px 10px 53px 0px rgba(0,255,123,1);
+    -moz-box-shadow: 10px 10px 53px 0px rgba(0,255,123,1);
+    box-shadow: 10px 10px 53px 0px rgba(0,255,123,1); 
+    font-size: 20px;
 }

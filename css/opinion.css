@@ -14,13 +14,6 @@
 .logo-celular{
     height: 50px;
 }
-header{
-    background-color: #D6D6D6;
-}
-header a{
-    color: #00bd80;
-    text-decoration: none;
-}
 body{
   background-image: url(../img/fondo-comentarios.jpg);
   background-repeat: no-repeat;
@@ -31,13 +24,13 @@ body{
     font-size: 1.2rem;
     font-family: 'Arvo', sans-serif;
   }
-nav a{
-    font-family: 'Arvo', sans-serif;
+  nav a{
+    font-family: 'Arvo', serif;
     text-decoration: none;
     color: #00bd80;
 }
 nav a:hover{
-    color: whitesmoke;
+    color:#37ffca;
 }
 .active{
     border: 1px solid #00bd80;
@@ -95,7 +88,7 @@ form p{
 
 /* FOOTER  */
 
-footer .card ,
+.fondo,
 .list-group li{
     background-color:#D6D6D6;
 }
@@ -107,15 +100,15 @@ footer .card ,
     color: #37ffca;
     font-family: 'Avro', sans-serif;
 }
-.card h5,
-.card h5 a ,
+.fondo h5,
+.fondo h5 a ,
 .list-group li a {
 color: black;
 text-decoration: none;
 
 }
-.card h5:hover,
-.card h5 a:hover ,
+.fondo h5:hover,
+.fondo h5 a:hover ,
 .list-group li a:hover{
     color:#00bd8a ;
     

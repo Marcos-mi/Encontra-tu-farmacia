@@ -31,15 +31,6 @@
 .logo-celular{
     height: 50px;
 }
-header{
-    background-color: #D6D6D6;
-}
-header a{
-    color: #00bd80;
-    text-decoration: none;
-    font-family: 'Arvo', serif;
-    
-}
 .active{
     border: 1px solid #00bd80;
     border-radius: 20px;
@@ -98,64 +89,7 @@ p{
     font-family: 'Arvo',sans-serif;
 }
 /*MAIN*/
-/* En revision para corregir tamaños*/
-/* main img{
-    height: 600px;
-} 
-.slider-frame {
-    
-	width: 960px;
-    height:auto ;
-	margin:10px auto 10px;
-	overflow: hidden;
-    margin-top: 2.5rem;
-}
-.fondo-carrusel{
-    background: rgba(102,102,102,1);
-background: -moz-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(107,107,107,1)), color-stop(21%, rgba(110,110,110,1)), color-stop(61%, rgba(0,128,105,1)), color-stop(100%, rgba(0,128,105,1)));
-background: -webkit-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
-background: -o-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
-background: linear-gradient(45deg, rgba(102,102,102,1) 0%, rgba(107,107,107,1) 0%, rgba(110,110,110,1) 21%, rgba(0,128,105,1) 61%, rgba(0,128,105,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#008069', GradientType=1 );
-    padding: 20px !important;
-}
 
-.slider-frame ul {
-    width: 400%;
-	display: flex;
-    padding: 0;
-	animation: slide 16s infinite alternate ease-in-out;
-}
-
-.slider-frame ul li {
-	width: 100%;
-    height: 600px;
-	list-style: none;
-}
-
-.slider-frame div ul li img {
-	width: 80%;
-   
-} 
-#carouselExampleFade span{
-    color: #00bd80;
-    background-color: #00bd80;
-}
-@keyframes slide {
-	0% {margin-left: 5%;}
-	20% {margin-left: 5%;}
-	
-	25% {margin-left: -100%;}
-	45% {margin-left: -100%;}
-	
-	50% {margin-left: -200%;}
-	70% {margin-left: -200%;}
-	
-	75% {margin-left: -300%;}
-	100% {margin-left: -300%;}
-}*/
  /* Carousel para la presentacion del 29/07/2022 */
 .carousel{
     /* background: rgba(102,102,102,1);
@@ -170,13 +104,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', end
 }
 .carousel-item img{
     height: 420px;
+    display: block;
 }
 
 /* ////////////////////////////////////////////////////////////////// */
 /* PREGUNTAS FRECUENTES */
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -232,34 +167,30 @@ section:target p{
 
 
 /* FOOTER */
-footer .card ,
+.fondo,
 .list-group li{
     background-color:#D6D6D6;
-    font-family: 'Arvo', serif;
 }
 
 .titulo h1{
     color: #00bd8a;
-    font-family: 'Arvo', serif;
 }
 .titulo h1:hover{
     color: #37ffca;
     font-family: 'Avro', sans-serif;
-    font-family: 'Arvo', serif;
 }
-.card h5,
-.card h5 a ,
+.fondo h5,
+.fondo h5 a ,
 .list-group li a {
 color: black;
 text-decoration: none;
-font-family: 'Arvo', serif;
 
 }
-.card h5:hover,
-.card h5 a:hover ,
+.fondo h5:hover,
+.fondo h5 a:hover ,
 .list-group li a:hover{
     color:#00bd8a ;
-    font-family: 'Arvo', serif;
+    
 }
 
 .list-group-item p {
@@ -273,6 +204,7 @@ font-family: 'Arvo', serif;
 .list-group-item{
     border: none !important;
 }
+
 
 
 
