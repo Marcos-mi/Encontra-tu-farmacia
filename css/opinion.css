@@ -33,9 +33,7 @@ nav a:hover{
     color:#37ffca;
 }
 .active{
-    border: 1px solid #00bd80;
-    border-radius: 20px;
-    padding: 5px 10px;
+    color: #8aa2a9;
 }
 .buscador input{
     width: 180px;

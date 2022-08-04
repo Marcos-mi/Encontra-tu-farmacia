@@ -31,24 +31,21 @@
 .logo-celular{
     height: 50px;
 }
-.active{
-    border: 1px solid #00bd80;
-    border-radius: 20px;
-    padding: 5px 10px;
-}
-
 .title p{
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Arvo', serif;
   }
-nav a{
+  nav a{
     font-family: 'Arvo', serif;
     text-decoration: none;
     color: #00bd80;
 }
 nav a:hover{
     color:#37ffca;
+}
+.active{
+    color: #8aa2a9;
 }
 .buscador input{
     width: 180px;
@@ -77,11 +74,11 @@ box-shadow: 10px 10px 53px 0px rgba(101,214,157,1); */
     font-size: 20px;
 }
 .border a{
-    color: #ff5111;
+    color:#37ffca;
     text-decoration: none;
 }
 a:hover{
-    color:#37ffca;
+    color: #ff5111;
 }
 p{
     color: #fefeff;
