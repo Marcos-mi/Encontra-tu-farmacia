@@ -1,15 +1,10 @@
-var preguntas = document.querySelectorAll('.preguntas .contenedor-pregunta')
-preguntas.forEach((pregunta) =>{
-    pregunta.addEventListener('click' , (e)=>{
-       
-        e.currentTarget.classList.toggle('activa'); 
 
-       var respuesta = pregunta.querySelector('.respuesta')
-       var alturaReal = respuesta.scrollHeight;
-       if(!respuesta.style.maxHeight){
-          respuesta.style.maxHeight = alturaReal + 'px';
-       }else{
-        respuesta.style.maxHeight = null
-       }
+//Funcionalidad Preguntas frecuentes
+const acordeon = document.querySelectorAll('.sub-titles');
+
+for(let i = 0; i < acordeon.length; i++){
+    acordeon[i].addEventListener('click',
+    function(){
+        this.classList.toggle('active')
     })
-}); 
+}
