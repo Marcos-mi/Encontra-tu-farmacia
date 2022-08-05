@@ -164,6 +164,17 @@ section:target p{
 
 
 /* FOOTER */
+
+.breadcrumb-item .fa-brands{
+    width: 20px;
+    height: 20px;
+    font-size: 24px;
+}
+.breadcrumb-item a{
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+}
 .fondo{
     background-color:#D6D6D6;
 }
@@ -177,13 +188,21 @@ section:target p{
     color: rgba(0,128,105,1);
     font-weight: 100 !important;
 }
+.agradecimientos h6:hover{
+    color: #37ffca;
+}
 .agradecimientos p:hover{
     font-size: 1rem;
+    
 }
 .agradecimientos a{
     font-size: 1rem;
     text-decoration: none;
     color: black;
+}
+.agradecimientos a:hover{
+    color: #37ffca;
+    
 }
 
 
