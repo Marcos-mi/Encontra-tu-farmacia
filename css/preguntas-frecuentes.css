@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+/* NAVBAR  */
+.logo img{
+    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logoNav img{
+    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
+   align-items: center;/*Alineo los elementos Verticalmente*/
+   margin-right: 53px;/*Separo el texto de la imagen*/
+}
+.logo-celular{
+    height: 50px;
+}
+ /* body{
+    background-image: url(../img/preguntasfrecuentes.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}  */
+.title p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Arvo', sans-serif;
+  }
+  nav a{
+    font-family: 'Arvo', serif;
+    text-decoration: none;
+    color: #00bd80;
+}
+nav a:hover{
+    color:#37ffca;
+}
+.active{
+    /* border: 1px solid #00bd80; */
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.buscador input{
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #00bd80;
+    border-radius: 20px;
+}
+.active{
+    color: #8aa2a9;
+}
+/* QUESTION & ANSWER */
+
+main{
+
+    place-items: center;
+    font-family:'Arvo', sans-serif ;
+    background: #95d5b2;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    color: #fff;
+    height: 100vh;
+}
+
+.container-accordion{
+    justify-content:center;
+    width: 50%;
+}
+.container-accordion h2{
+    color: #fff;
+    padding: .7rem 10px;
+    border-bottom: thin solid #ffffff;
+    text-align: center;
+    font-family: 'Arvo', sans-serif;
+    font-size: 40px;
+}
+.sub-titles{
+    color: #2D6A4F;
+    border-bottom: solid thin #1B4332;
+    font-size: 12px;
+}
+.sub-titles .fa-arrow-down{
+    transition: all .5s ease-in-out;
+}
+.sub-titles.active .fa-arrow-down{
+    transform: rotate(180deg);
+}
+.fa-arrow-down{
+    
+}
+.sub-titles h3{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 0;
+    font-weight: 100px;
+    cursor: pointer;
+}
+.sub-titles .desplegar{
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+}
+
+.sub-titles.active .desplegar{
+    max-height: none;
+    overflow:none;
+    padding: .7rem 0;
+}
+ p{
+    color: #ffffff;
+    font-size: 14px;
+}
