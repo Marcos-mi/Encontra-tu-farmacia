@@ -121,7 +121,7 @@ main{
     background-color:#D6D6D6;
 }
 .agradecimientos p{
-    font-size: 0.5rem;
+    font-size: 0,7rem;
     transition: all .4s ease-in-out;
     color: rgba(0,128,105,1);
     font-weight: 100 !important;
@@ -132,10 +132,6 @@ main{
 }
 .agradecimientos h6:hover{
     color: #37ffca;
-}
-.agradecimientos p:hover{
-    font-size: 1rem;
-    
 }
 .agradecimientos a{
     font-size: 1rem;
