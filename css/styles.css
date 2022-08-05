@@ -164,46 +164,27 @@ section:target p{
 
 
 /* FOOTER */
-.fondo,
-.list-group li{
+.fondo{
     background-color:#D6D6D6;
 }
-
-.titulo h1{
-    color: #00bd8a;
-}
-.titulo h1:hover{
-    color: #37ffca;
-    font-family: 'Avro', sans-serif;
-}
-.fondo h5,
-.fondo h5 a ,
-.list-group li a {
-color: black;
-text-decoration: none;
-
-}
-.fondo h5:hover,
-.fondo h5 a:hover ,
-.list-group li a:hover{
-    color:#00bd8a ;
-    
-}
-
-.list-group-item p {
+.agradecimientos p{
     font-size: 0.5rem;
     transition: all .4s ease-in-out;
+    color: rgba(0,128,105,1);
+    font-weight: 100 !important;
 }
-.list-group-item p:hover{
+.agradecimientos h6{
+    color: rgba(0,128,105,1);
+    font-weight: 100 !important;
+}
+.agradecimientos p:hover{
     font-size: 1rem;
-    background-color:#aeaaaa;
 }
-.list-group-item{
-    border: none !important;
+.agradecimientos a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
 }
-
-
-
 
 
 
