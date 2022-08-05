@@ -81,9 +81,6 @@ main{
 .sub-titles.active .fa-arrow-down{
     transform: rotate(180deg);
 }
-.fa-arrow-down{
-    
-}
 .sub-titles h3{
     height: 50px;
     display: flex;

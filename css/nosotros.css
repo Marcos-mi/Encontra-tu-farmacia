@@ -169,3 +169,13 @@ p{
     box-shadow: 10px 10px 53px 0px rgba(0,255,123,1); 
     font-size: 20px;
 }
+
+@media (max-width: 750px){
+    main{
+        padding-left: 70px;
+        display: flex;
+        flex-wrap: wrap; 
+        background: #b7e4c7;
+    
+    }
+}
