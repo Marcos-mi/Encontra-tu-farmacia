@@ -15,7 +15,7 @@
     height: 50px;
 }
 body{
-  background-image: url(../img/fondo-comentarios.jpg);
+  /* background-image: url(../img/fondo-comentarios.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -40,6 +40,10 @@ nav a:hover{
     padding: 10px;
     border: 1px solid #00bd80;
     border-radius: 20px;
+}
+/* main */
+main{
+    background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
 }
 /* Titulos */
 h1,
