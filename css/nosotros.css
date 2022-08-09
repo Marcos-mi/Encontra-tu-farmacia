@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oxygen:wght@300&display=swap');
 
 /* navbar */
 .logo img{
@@ -18,10 +18,10 @@
 .title p{
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Arvo', sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   nav a{
-    font-family: 'Arvo', serif;
+    font-family: 'Lato', serif;
     text-decoration: none;
     color: #00bd80;
 }
@@ -38,7 +38,7 @@ nav a:hover{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arvo', serif;
+    font-family: 'Lato', serif;
 }
 main{
     padding-left: 120px;
@@ -60,7 +60,7 @@ main{
 box-shadow: 0px 5px 19px 15px rgba(0,0,0,0.74);
 }
 .card .content{
-    font-family: 'Arvo', serif;
+    font-family: 'Lato', serif;
     position: relative;
     z-index: 100;
     width: 100%;
@@ -99,14 +99,14 @@ box-shadow: 0px 5px 19px 15px rgba(0,0,0,0.74);
     color: #2a9d8f;
     margin-bottom: 5px;
     font-weight: 800;
-    font-family: 'Arvo', serif;
+    font-family: 'Oxygen', serif;
 }
 .card .content h6{
     font-size: 18px;
     color: #006d77;
     margin-top: 10px;
     font-weight: 800;
-    font-family: 'Arvo', serif;
+    font-family: 'Oxygen', serif;
 }
 .card .links {
     position:absolute;
@@ -150,7 +150,7 @@ p{
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
     color: #fefefe;
     font-size: 20px;
-    font-family: 'Arvo', serif;
+    font-family: 'Lato', serif;
 }
 
 @media (max-width: 750px){
