@@ -146,11 +146,12 @@ p{
     font-size: 14px;
     font-family: 'Arvo', serif;
 }
-.row{
+.titulo{
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
     color: #fefefe;
     font-size: 20px;
     font-family: 'Lato', serif;
+    margin: 0;
 }
 
 @media (max-width: 750px){

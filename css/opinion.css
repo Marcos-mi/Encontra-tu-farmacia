@@ -14,11 +14,6 @@
 .logo-celular{
     height: 50px;
 }
-body{
-  /* background-image: url(../img/fondo-comentarios.jpg); */
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 .title p{
     text-align: center;
     font-size: 1.2rem;
@@ -35,15 +30,12 @@ nav a:hover{
 .active{
     color: #8aa2a9;
 }
-.buscador input{
-    width: 180px;
-    padding: 10px;
-    border: 1px solid #00bd80;
-    border-radius: 20px;
-}
 /* main */
 main{
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
+}
+.row{
+    margin: 0;
 }
 /* Titulos */
 h1,

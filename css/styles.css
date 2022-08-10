@@ -60,6 +60,7 @@ h1{
 .border{
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
     font-size: 20px;
+    margin: 0;
 }
 .border a{
     color:#00694d;
