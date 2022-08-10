@@ -88,41 +88,30 @@ form p{
 }
 
 
-/* FOOTER  */
-
-.breadcrumb-item .fa-brands{
-    width: 20px;
-    height: 20px;
-    font-size: 24px;
+/* FOOTER */
+footer{
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(12%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+    border-top: 1px solid #026d4d;
 }
-.breadcrumb-item a{
-    width: 20px;
-    height: 20px;
-    font-size: 12px;
+.jp-morgan img{
+    height: 30px;
 }
-.fondo{
-    background-color:#D6D6D6;
+.fundacion-pescar img{
+    height: 60px;
 }
-.agradecimientos p{
-    font-size: 0,7rem;
-    transition: all .4s ease-in-out;
-    color: rgba(0,128,105,1);
-    font-weight: 100 !important;
+.educacionit-tamaño img{
+    height: 80px;
 }
-.agradecimientos h6{
-    color: rgba(0,128,105,1);
-    font-weight: 100 !important;
+.p-footer{
+    color:#026d4d;
 }
-.agradecimientos h6:hover{
-    color: #37ffca;
+.ailu img{
+    height: 90px;
 }
-.agradecimientos a{
-    font-size: 1rem;
-    text-decoration: none;
-    color: black;
-}
-.agradecimientos a:hover{
-    color: #37ffca;
-    
-}
-
