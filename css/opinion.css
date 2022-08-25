@@ -4,20 +4,18 @@
 .title p{
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Arvo', sans-serif;
 }
 .navbar-toggler{
  border: 3px solid  #97E8B5;   
 }
 nav a{
-    font-family: 'Arvo', serif;
+    font-family: 'Lato',sans-serif;
     text-decoration: none;
     color: #00bd80;
 }
 *{
 	margin: 0;
     padding: 0;
-    font-family: 'Lato',sans-serif;
 }
 .row{
 	margin: 0;
@@ -41,9 +39,10 @@ main{
 }
 
 .formulario__input-error {
-	font-size: 14px;
+	font-size: 14px !important;
 	margin-bottom: 0;
 	display: none;
+	font-family:'Oxygen',sans-serif;
 }
 
 .formulario__input-error-activo {
@@ -112,10 +111,11 @@ textarea {
 	border-radius: 5px !important;
 	font-size: 0.8rem !important;
 	resize: none;
+	font-family:'Oxygen',sans-serif !important;
 }
 /* mensajes e iconos de exito y error */
 .formulario__mensaje-exito {
-	font-size: 12px;
+	font-size: 20px;
 	color: #000;
 	display: none;
 }
