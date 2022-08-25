@@ -12,9 +12,11 @@
    margin-right: 53px;/*Separo el texto de la imagen*/
 }
 .logo-celular{
-    height: 50px;
+    height: 60px;
 }
-
+.navbar-toggler{
+    border: 3px solid  #97E8B5;   
+   }
 .title p{
     text-align: center;
     font-size: 1.2rem;

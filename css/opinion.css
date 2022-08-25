@@ -1,32 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oxygen:wght@300&display=swap');
 
 /* navBar */
-.logo img{
-    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-   align-items: center;/*Alineo los elementos Verticalmente*/
-   margin-right: 53px;/*Separo el texto de la imagen*/
-}
-.logoNav img{
-    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-   align-items: center;/*Alineo los elementos Verticalmente*/
-   margin-right: 53px;/*Separo el texto de la imagen*/
-}
-.logo-celular{
-    height: 50px;
-}
 .title p{
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Arvo', sans-serif;
-  }
-  nav a{
+}
+.navbar-toggler{
+ border: 3px solid  #97E8B5;   
+}
+nav a{
     font-family: 'Arvo', serif;
     text-decoration: none;
     color: #00bd80;
 }
-nav a:hover{
-    color:#37ffca;
+*{
+	margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
 }
+.row{
+	margin: 0;
+}
+.logo-celular{
+    height: 60px;
+}
+.logo-celular-form{
+    height: 450px;
+} 
 .active{
     color: #8aa2a9;
 }
@@ -34,51 +35,113 @@ nav a:hover{
 main{
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
 }
-.row{
-    margin: 0;
-}
-/* Titulos */
-h1,
-h2{
-    font-family: 'Arvo', sans-serif;
-}
 /* formulario */
-#contact {
-    color: whitesmoke;
-}
-#contact :is(
-    input, 
-    textarea, 
-    select){
-        border-radius: 10px;
-        outline: none;
-        border: 1.5px solid #00bd80;
-        padding: .25rem 1rem;
-        font-size: 0.9rem;
-        resize: none;
-        font-family: 'Arvo', sans-serif;
-    }
-label{
-    font-family: 'Arvo', sans-serif;
-}
-.btn{
-    width: 30%;
-    color: black;
-    border-radius: 3rem;
-    border: solid 2px #00bd80;
-    background-color: rgb(189, 189, 189);
-    margin-top: 2rem;
-}
-.btn:hover{
-    background-color: #fefefe;
-    border: solid 2px #00bd80;
-    color: #00bd80;
-}
-form p{
-    color:  whitesmoke;
-    font-family: 'Arvo', sans-serif;
+.formulario__grupo-input {
+	position: relative;
 }
 
+.formulario__input-error {
+	font-size: 14px;
+	margin-bottom: 0;
+	display: none;
+}
+
+.formulario__input-error-activo {
+	display: block;
+}
+
+.formulario__validacion-estado {
+	position: absolute;
+	right: 10px;
+	bottom: 15px;
+	z-index: 100;
+	font-size: 16px;
+	opacity: 0;
+}
+.formulario__mensaje {
+	border-radius: 3px;
+	display: none;
+}
+
+.formulario__mensaje-activo {
+	display: block;
+}
+
+.formulario__mensaje p {
+	margin: 0;
+}
+
+/* boton de enviar */
+.formulario__btn {
+	width: 9em;
+	height: 3em;
+	border-radius: 30em;
+	font-size: 15px;
+	font-family: inherit;
+	border: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	box-shadow: 6px 6px 12px #c5c5c5,
+				-6px -6px 12px #ffffff;
+   }
+   
+   .formulario__btn::before {
+	content: '';
+	width: 0;
+	height: 3em;
+	border-radius: 30em;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+	transition: .5s ease;
+	display: block;
+	z-index: -1;
+   }
+   
+   .formulario__btn:hover::before {
+	width: 9em;
+   }
+
+.formulario__btn:hover {
+	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+input, 
+textarea {
+	border-radius: 5px !important;
+	font-size: 0.8rem !important;
+	resize: none;
+}
+/* mensajes e iconos de exito y error */
+.formulario__mensaje-exito {
+	font-size: 12px;
+	color: #000;
+	display: none;
+}
+
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
 
 /* FOOTER */
 footer{

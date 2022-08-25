@@ -1,17 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oxygen:wght@300&display=swap');
 /* navbar */
-.logo img{
-    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-   align-items: center;/*Alineo los elementos Verticalmente*/
-   margin-right: 53px;/*Separo el texto de la imagen*/
-}
-.logoNav img{
-    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-   align-items: center;/*Alineo los elementos Verticalmente*/
-   margin-right: 53px;/*Separo el texto de la imagen*/
-}
 .logo-celular{
-    height: 50px;
+    height: 60px;
 }
 .title p{
     text-align: center;
@@ -23,6 +13,9 @@
     text-decoration: none;
     color: #00bd80;
 }
+.navbar-toggler{
+    border: 3px solid  #97E8B5;   
+   }
 nav a:hover{
     color:#37ffca;
 }

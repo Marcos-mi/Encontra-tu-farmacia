@@ -9,19 +9,13 @@
     }
 
 /* navbar */
-.logo img{
-    height:  900px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-   align-items: center;/*Alineo los elementos Verticalmente*/
-   margin-right: 53px;/*Separo el texto de la imagen*/
-}
-.logoNav img{
-    height:  75px; /*Le doy una altura minima 50 px para que me quede tipo logo*/
-   align-items: center;/*Alineo los elementos Verticalmente*/
-   margin-right: 53px;/*Separo el texto de la imagen*/
-}
-.logo-celular{
-    height: 50px;
-}
+
+ .logo-celular{
+    height: 60px;
+} 
+.navbar-toggler{
+    border: 3px solid  #97E8B5;   
+   }
 .title p{
     text-align: center;
     font-size: 1.2rem;
@@ -51,12 +45,12 @@ nav{
 
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
-h1{
+ h1{
     color:#026d4d;
     font-size: 40px;
     font-weight: 900;
     font-family: 'Lato',sans-serif;
-}
+} 
 .border{
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
     font-size: 20px;
