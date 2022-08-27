@@ -48,15 +48,3 @@ req.addEventListener('load', e => {
     }
 });
 req.send();
-
-const btnSigientes = document.querySelector('.btn-sigientes')
-            btnSigientes.addEventListener(clic, e => {
-                let sigiente3 = 3;
-                let comienso = 0;
-            if(i===2){
-                    sigiente3 = 6;
-                    comienso =3
-            }else{
-                
-            }
-            })
