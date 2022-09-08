@@ -7,7 +7,10 @@
     .margin-auto{
         margin: 0.5rem auto;
     }
-
+    *{
+        margin: 0;
+        padding: 0;
+    }
 /* navbar */
 
  .logo-celular{
@@ -76,17 +79,11 @@ a:hover{
 }
  /* Carousel*/
 .carousel{
-    background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(12%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
-}
+    background: rgb(223, 225, 235);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+   } 
 .carousel-item img{
-    width: 100%;
+    width: 100% ;
     height: 100%;
     object-fit: contain;
 }
@@ -134,22 +131,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
    .text-body {
     color: rgb(134, 134, 134);
    }
-   
-   /*Text*/
    .text-title {
     font-size: 1.5em;
     font-weight: bold;
    }
-/* Farmacias con el servicio Control de la presión */
-/* .card {
-    width: 190px;
-    height: 254px;
-    background: rgb(223, 225, 235);
-    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-   } */
 
 /* Ver totales */
-/* From uiverse.io by @mrhyddenn */
 .shadow__btn {
     padding: 10px 20px;
     border: none;
@@ -219,4 +206,9 @@ footer{
         font-weight: 900;
         font-family: 'Lato',sans-serif;
     } 
+    #inicio .carousel-item img{
+        width: 100% !important;
+        height: 100%;
+        object-fit: contain;
+    }
 }
