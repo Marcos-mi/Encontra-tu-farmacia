@@ -59,12 +59,13 @@ footer{
     font-family: sans-serif;
 }
 
-section{
-    display: flex; 
+
+.carousel-inner{
+    display: flex ; 
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    min-height: 100vh;
+    flex-wrap:wrap-reverse;
+    min-height: 80vh;
     background-color: #87DBA7;
 }
 .card{
@@ -80,7 +81,7 @@ section{
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    backface-visibility : hidden;
     border-radius: 10px;
     overflow: hidden;
     transition: .5s;
@@ -142,4 +143,14 @@ section{
 .card:hover .back {
     transform: perspective(600px) rotateY(360deg);
     transition:  all 1.5s;
+}   
+#btn{
+ 
+    width: 4px !important ;
+   
+}
+.carousel-indicators {
+    
+ margin-left: 0% !important; 
+   
 }

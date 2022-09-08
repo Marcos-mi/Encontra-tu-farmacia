@@ -2,14 +2,15 @@
 const req = new XMLHttpRequest();
 req.open('get', './datos/datos.json');
 req.addEventListener('load', e => {
-    let datos = document.querySelector('#card');
+    let slider = document.querySelector('.carousel-indicators')
+    let datos = document.querySelector('.carousel-inner');
     if (e.target.status === 200) {
         let response = e.target.responseText;
         datos.innerHTML += '';
         try {
             const post = JSON.parse(response);
            
-            for (let i = 0 ; i < 3; i++) {
+            for (let i = 0 ; i <post.length; i++) {
                
                 console.log('post:', post[i]);
             
@@ -23,8 +24,16 @@ req.addEventListener('load', e => {
             let latitud = nuevoarrayreslonlat[1]
             console.log(longitud)
             console.log(latitud)
+            let on_off = 'active';
+            let boleano = true;
+            
+            if(i > 0){
+                on_off = 'none'
+                boleano = false;
+            }
+            slider.innerHTML +=`<button id="btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}" class=${on_off} aria-current="${boleano}" aria-label="Slide ${i}"></button>`
             datos.innerHTML += `
-                    <div class="card">
+                    <div class="card carousel-item ${on_off} col-4">
                     <div class="face front">
                     <img src="img/hospitales/hospital-argerich.jpg" alt="">
                     <h3>${post[i].efector}</h3>
