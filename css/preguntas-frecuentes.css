@@ -35,39 +35,48 @@ nav a:hover{
 /* QUESTION & ANSWER */
 
 main{
-
     place-items: center;
     font-family:'Lato', sans-serif ;
     background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
     background-size: cover;
     background-repeat:no-repeat ;
     color: #fff;
-    height: 100vh;
-}
-
- .accordion-item{
+    height: 150vh;
+}  
+.accordion-item{
     background-color :  #9eebbb  !important; 
-    border: 1px solid #8aa2a9;
+    border:none !important; 
     font-family: 'Oxygen';
-
 }
-
 .accordion-button{
-    background-color: #77CC97 ;
-    color:#008d60;
+    border: none;
+    background-color: #25b67e !important;
     font-family: 'Lato';
     padding: 20px;
+} 
+.accordion-button:not(.collapsed){
+    color: black !important;
 }
 .accordion-button:hover{
     color: #37ffca;
+} 
+.centrado{
+    margin-left: 24%;
 }
 .accordion-button:active{
-    box-shadow: none;
     border: none;
     color: #00bd80;
     background-color: #05b989;
-} */
-
+}   
+.accordio-header:active{
+    border: none !important;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
 /* FOOTER */
 footer{
     background: rgba(255,255,255,1);
