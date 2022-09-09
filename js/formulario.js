@@ -3,19 +3,18 @@ const inputs = document.querySelectorAll('#formulario input');
 const textarea = document.querySelectorAll('#formulario textarea');
 
 const expresiones = {
-	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-	apellido: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
+	nombre: /^[a-zA-ZÀ-ÿ\s]{3,40}$/, // Letras y espacios, pueden llevar acentos.
+	apellido: /^[a-zA-ZÀ-ÿ\s]{3,40}$/, // Letras y espacios, pueden llevar acentos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{7,14}$/, // 7 a 14 numeros.
-	consulta: /^[^$%&|<>#]*$/
+	consulta: /^[^$%&|<>#]{10,150}$/
 }
-
 const campos = {
 	nombre: false,
 	apellido: false,
 	correo: false,
 	telefono: false,
-	consulta: false
+	consulta: false,
 }
 
 const validarFormulario = (e) => {
@@ -39,6 +38,7 @@ const validarFormulario = (e) => {
 		case "consulta":
 			validarCampo2(expresiones.consulta, e.target, 'consulta');
 		break;
+
 	}
 }
 
