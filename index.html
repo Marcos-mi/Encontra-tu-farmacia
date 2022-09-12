@@ -9,22 +9,26 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a9448b5173.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/generales.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="stylesheet" href="css/modooscuro.css">
 
 </head>
 <body id="inicio" class="d-flex flex-column h-100">
      <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a href="index.html"><img src="img/logo_v.3sinfondo.png"  alt="logo" class="logo-celular"></a> 
+
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item  py-2 logoNav">
@@ -53,6 +57,12 @@
                         <li class="nav-item px-sm-5  ps-2 py-sm-4 py-1">
                             <a class="nav-link>" href="opinion.html">Consultas u sugerencias</a>
                         </li>
+                        <li>
+                            <buttons class="switch mt-4 col-lg-12 col-2" id="switch">
+                                <span><i class="fas fa-sun"></i></span>
+                                <span><i class="fas fa-moon"></i></span>
+                            </buttons> 
+                        </li>
                     </ul>
                     <div>
                     </div>
@@ -62,18 +72,20 @@
     </header>  
 
     <main class="main">
-        <div class="row border">
-            <div class="col-12 text-sm-left text-center ">
-                <h1>BIENVENIDO A ENCONTRÁ TU FARMACIA</h1>
-                <p class="texto-inicio px-5">Esta app es desarrollado por programadores Jr de <a href="http://www.pescar.org.ar" target="_blank">Fundación Pescar</a>.
-                    ¿De qué trata está app? A quien no le ha pasado de ese dolor de muela por la noche, fuimos  a nuestra farmacia de turno y no estaba abierta ese día. ¡Entonces acá esta la solución en <span style="color: #000;">Encontrá tu farmacia </span>podrás encontrar tus farmacias de barrio con los horarios, su dirección y mucho más!
-                    Con el fin de poder ayudar al que utilice esta app</p>
+        <div class="row border grid">
+            <div class="col-12 text-sm-left text-center">
+                <h1 >BIENVENIDO A ENCONTRAR TU FARMACIA</h1>             
             </div>           
+            <div class="col-12 text-sm-left text-center px-5">
+                <p class="texto-inicio">Esta app es desarrollado por programadores Jr de <a href="http://www.pescar.org.ar" target="_blank" rel="noopener">Fundación Pescar</a>.
+                ¿De qué trata está app? A quien no le ha pasado de ese dolor de muela por la noche, fuimos  a nuestra farmacia de turno y no estaba abierta ese día. ¡Entonces acá esta la solución con ZONAFARM podras encontrar tus farmacias de barrio con los horarios, su dirección y mucho más!
+                Con el fin de poder ayudar al que utilice esta app</p>
+            </div>
         </div>
 
         <!-- carrusel-->
-    <section class="col-12 px-0 mb-5">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <section class="col-12 px-0 mb-5 grid">
+        <div id="carouselExampleFade" class="grid carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/carrusel1.jpeg" class="d-block w-50 margin-auto" alt="foto1">
@@ -101,15 +113,14 @@
             </button>
         </div>
     </section>
-    <!-- Consejos saludables -->
+
     <section class="container consejos-saludables">
         <section class="row">
             <article class="col-12 text-center mt-2 mb-1">
                 <h2>Consejos saludables</h2>
             </article>
             <section class="row  my-5">
-
-                <article class="col-sm-6 col-4 col-lg-3 offset-sm-0 offset-3  offset-lg-2 my-3  text-center">
+                <article class="col-sm-3 col-4 offset-sm-0 offset-3 my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                           <p class="text-title">Cuidá tu estomago</p>
@@ -118,7 +129,7 @@
                         <button class="card-button">Leer más</button>
                       </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0 offset-3 col-lg-3  my-3 text-center">
+                <article class="col-sm-3 col-12 offset-sm-0 offset-3  my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                           <p class="text-title">Hipoglucemia</p>
@@ -127,16 +138,7 @@
                         <button class="card-button">Leer más</button>
                       </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0 offset-3 col-lg-3  my-3 text-center">
-                    <div class="card">
-                        <div class="card-details">
-                          <p class="text-title">Hipoglucemia</p>
-                          <p class="text-body">Qué es, como prevenirlo y como tratarlo.</p>
-                        </div>
-                        <button class="card-button">Leer más</button>
-                      </div>
-                </article>
-                <article class="col-sm-6 col-4 col-lg-3 offset-3 offset-sm-0 offset-lg-2 my-3  text-center">
+                <article class="col-sm-3 col-12 offset-sm-0 offset-3  my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                           <p class="text-title">Antigripales</p>
@@ -145,7 +147,7 @@
                         <button class="card-button">Leer más</button>
                       </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0 offset-3 col-lg-3  my-3 text-center">
+                <article class="col-sm-3 col-12 offset-sm-0 offset-3  my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                           <p class="text-title">Micosis</p>
@@ -154,17 +156,7 @@
                         <button class="card-button">Leer más</button>
                       </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0 offset-3 col-lg-3  my-3 text-center">
-                    <div class="card">
-                        <div class="card-details">
-                          <p class="text-title">Micosis</p>
-                          <p class="text-body">Qué es, como prevenirlo y como tratarlo.</p>
-                        </div>
-                        <button class="card-button">Leer más</button>
-                      </div>
-                </article>
-                
-                <article class="col-sm-6 col-9 offset-sm-2 offset-2 col-lg-4 offset-lg-4  text-center mt-5 mb-1 ">
+                <article class="col-12 text-center mt-5 mb-1 offset-sm-0 offset-1">
                     <button class="shadow__btn">
                         Ver todos los consejos saludables
                     </button>
@@ -172,14 +164,13 @@
             </section>
         </section>
     </section>
-    <!-- Farmacias para tomar la presion -->
     <section class="container control-presion">
         <section class="row">
             <article class="col-12 text-center mt-2 mb-1">
                 <h2>Farmacias con el servicio control de la presión</h2>
             </article>
             <section class="row  my-5">
-                <article class="col-sm-6 col-4 col-lg-3 offset-lg-2 offset-sm-0  offset-3 my-3 text-center">
+                <article class="col-sm-3 col-4 offset-sm-0 offset-3 my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                             <p class="text-title">Farmacia Dr. Arturo Illia 2.302</p>
@@ -188,7 +179,7 @@
                           <button class="card-button">¿Como llegar?</button>
                     </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0  offset-3 col-lg-3  my-3 text-center">
+                <article class="col-sm-3 col-12 offset-sm-0 offset-3  my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                             <p class="text-title">Farmacia Machado 3575</p>
@@ -196,15 +187,7 @@
                           </div>
                           <button class="card-button">¿Como llegar?</button>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0  offset-3 col-lg-3  my-3 text-center">
-                    <div class="card">
-                        <div class="card-details">
-                            <p class="text-title">Farmacia Machado 3575</p>
-                            <p class="text-body">Localidad: Castelar.</p>
-                          </div>
-                          <button class="card-button">¿Como llegar?</button>
-                </article>
-                <article class="col-sm-6 col-4 col-lg-3 offset-lg-2 offset-sm-0  offset-3 my-3 text-center">
+                <article class="col-sm-3 col-12 offset-sm-0 offset-3  my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                             <p class="text-title">Farmacia Av. del Libertador 788</p>
@@ -213,7 +196,7 @@
                           <button class="card-button">¿Como llegar?</button>
                     </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0 offset-3 col-lg-3  my-3 text-center">
+                <article class="col-sm-3 col-12 offset-sm-0 offset-3  my-3 text-center">
                     <div class="card">
                         <div class="card-details">
                             <p class="text-title">Farmacia Noguera 23</p>
@@ -222,16 +205,7 @@
                                 <button class="card-button">¿Como llegar?</button>
                     </div>
                 </article>
-                <article class="col-sm-6 col-4 offset-sm-0 offset-3 col-lg-3  my-3 text-center">
-                    <div class="card">
-                        <div class="card-details">
-                            <p class="text-title">Farmacia Noguera 23</p>
-                            <p class="text-body">Localidad: Padua</p>
-                          </div>
-                                <button class="card-button">¿Como llegar?</button>
-                    </div>
-                </article>
-                <article class="col-sm-12 col-9 offset-sm-0 offset-2  text-center mt-5 mb-1 ">
+                <article class="col-12 text-center mt-5 mb-1 offset-sm-0 offset-1">
                     <button class="shadow__btn">
                         Ver más Farmacias
                     </button>
@@ -241,80 +215,81 @@
     </section>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </main>
-<footer class="mt-auto">
-    <div class="container-fluid">
-        <div class="row p-5  text-white">
-            <div class="col-xs-12 col-md-6 col-lg-3 "> 
-                <p class="h4 p-footer">¡Gracias por la oportunidad de poder formarnos y acompañarnos durante el proceso!</p>
-                <div class="mb-2 sponsors">
-                    <a href="http://www.pescar.org.ar/wp/" target="_blank" rel="noopener" class="fundacion-pescar"><img src="img/pescar-sin-fondo.png" alt="Fundación Pescar"  title="Fundación Pescar"></a>
-                    <a href="https://www.linkedin.com/in/ailen-siccardi/" target="_blank" rel="noopener" class="ailu"><img src="img/AilenSiccardi (1).png" alt="Ailén Siccardi"  title="Fundación Pescar- Ailén Siccardi"></a>
-                    <a href="https://www.jpmorgan.com/AR/es/about-us" target="_blank" rel="noopener" class="jp-morgan"><img src="img/jpMorgan.png" alt="Jp Morgan chase & co." title="Jp Morgan chase & co."></a>
-                    <a href="https://www.educacionit.com/?gclid=CjwKCAjwi8iXBhBeEiwAKbUofe89kd4iSQYf7Td0jlH6my15Pjqcr6iAuW7K6FibNSzu8KhTBZa24BoC14IQAvD_BwE#categorias" target="_blank" rel="noopener" class="educacionit-tamaño"><img src="img/educacionIT-sin-fondo.png" alt="educacion it logo" title="educación IT"></a>
-                </div> 
+    <footer class="mt-auto">
+        <div class="container-fluid grid">
+            <div class="row p-5  text-whifooter-a">
+                <div class="col-xs-12 col-md-6 col-lg-3 "> 
+                    <p class="h4 p-footer">¡Gracias por la oportunidad de poder formarnos y acompañarnos durante el proceso!</p>
+                    <div class="mb-2 sponsors">
+                        <a href="http://www.pescar.org.ar/wp/" target="_blank" class="fundacion-pescar"><img src="img/pescar-sin-fondo.png" alt="Fundación Pescar"  title="Fundación Pescar"></a>
+                        <a href="https://www.linkedin.com/in/ailen-siccardi/" target="_blank" class="ailu"><img src="img/AilenSiccardi (1).png" alt="Ailén Siccardi"  title="Fundación Pescar- Ailén Siccardi"></a>
+                        <a href="https://www.jpmorgan.com/AR/es/about-us" target="_blank" class="jp-morgan"><img src="img/jpMorgan.png" alt="Jp Morgan chase & co." title="Jp Morgan chase & co."></a>
+                        <a href="https://www.educacionit.com/?gclid=CjwKCAjwi8iXBhBeEiwAKbUofe89kd4iSQYf7Td0jlH6my15Pjqcr6iAuW7K6FibNSzu8KhTBZa24BoC14IQAvD_BwE#categorias" target="_blank" class="educacionit-tamaño"><img src="img/educacionIT-sin-fondo.png" alt="educacion it logo" title="educación IT"></a>
+                    </div> 
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 p-footer">GrupDev</p>  
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/juan-yovera/" target="_blank" class="h6 text-decoration-none footer-a">Juan Yovera</a>                    
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/marcos-mi%C3%B1o/" target="_blank" class="h6 text-decoration-none footer-a">Marcos Miño</a>                
+                    </div> 
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/nicolasquispe/" target="_blank" class="h6 text-decoration-none footer-a">Nicolas Quispe</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/imanol-eduardo-oliva/" target="_blank" class="h6 text-decoration-none footer-a">Imanol Oliva</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/lucasivanbarrios/" target="_blank" class="h6 text-decoration-none footer-a">Lucas Barrios</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 p-footer">Teléfonos útiles</p>  
+                    <div class="mb-2">
+                        <a href="tel:100" class="h6 text-decoration-none footer-a">100 | Bomberos</a>                    
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:103" class="h6 text-decoration-none footer-a">103 | Defensa Civil</a>                
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:107" class="h6 text-decoration-none footer-a">107 ó 4691729 | SAME</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:144" class="h6 text-decoration-none footer-a">144 | Violencia de Género</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:148" class="h6 text-decoration-none footer-a">148 | Atención Ciudadana</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:911" class="h6 text-decoration-none footer-a">911 | Emergencias</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <p class="h5 p-footer">Mapa del sitio</p>
+                    <div class="mb-2">
+                        <a href="#" class=" text-decoration-none h6 text-warning">Home</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="buscatufarmacia.html" class="footer-a text-decoration-none h6">Busca tu farmacia</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="preguntas-frecuentes.html" class="footer-a text-decoration-none h6">Preguntas frecuentes</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="nosotros.html" class="footer-a text-decoration-none h6">Sobre nosotros</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="centros-vacunacion.html" class="footer-a text-decoration-none h6 ">Servicios</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="opinion.html" class="footer-a text-decoration-none h6">Consultas u sugerencias</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 p-footer">GrupDev</p>  
-                <div class="mb-2">
-                    <a href="https://www.linkedin.com/in/juan-yovera/" target="_blank" rel="noopener" class="h6 text-decoration-none text-dark">Juan Yovera</a>                    
-                </div>
-                <div class="mb-2">
-                    <a href="https://www.linkedin.com/in/marcos-mi%C3%B1o/" target="_blank" rel="noopener" class="h6 text-decoration-none text-dark">Marcos Miño</a>                
-                </div> 
-                <div class="mb-2">
-                    <a href="https://www.linkedin.com/in/nicolasquispe/" target="_blank" rel="noopener" class="h6 text-decoration-none text-dark">Nicolas Quispe</a>
-                </div>
-                <div class="mb-2">
-                    <a href="https://www.linkedin.com/in/imanol-eduardo-oliva/" target="_blank" rel="noopener" class="h6 text-decoration-none text-dark">Imanol Oliva</a>
-                </div>
-                <div class="mb-2">
-                    <a href="https://www.linkedin.com/in/lucasivanbarrios/" target="_blank" rel="noopener" class="h6 text-decoration-none text-dark">Lucas Barrios</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 p-footer">Teléfonos útiles</p>  
-                <div class="mb-2">
-                    <a href="tel:100" class="h6 text-decoration-none text-dark">100 | Bomberos</a>                    
-                </div>
-                <div class="mb-2">
-                    <a href="tel:103" class="h6 text-decoration-none text-dark">103 | Defensa Civil</a>                
-                </div>
-                <div class="mb-2">
-                    <a href="tel:107" class="h6 text-decoration-none text-dark">107 ó 4691729 | SAME</a>
-                </div>
-                <div class="mb-2">
-                    <a href="tel:144" class="h6 text-decoration-none text-dark">144 | Violencia de Género</a>
-                </div>
-                <div class="mb-2">
-                    <a href="tel:148" class="h6 text-decoration-none text-dark">148 | Atención Ciudadana</a>
-                </div>
-                <div class="mb-2">
-                    <a href="tel:911" class="h6 text-decoration-none text-dark">911 | Emergencias</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3 ">
-                <p class="h5 p-footer">Mapa del sitio</p>
-                <div class="mb-2">
-                    <a href="#" class=" text-warning text-decoration-none h6">Home</a>
-                </div>
-                <div class="mb-2">
-                    <a href="buscatufarmacia.html" class="text-dark text-decoration-none h6">Busca tu farmacia</a>
-                </div>
-                <div class="mb-2">
-                    <a href="preguntas-frecuentes.html" class="text-dark text-decoration-none h6">Preguntas frecuentes</a>
-                </div>
-                <div class="mb-2">
-                    <a href="nosotros.html" class="text-dark text-decoration-none h6">Sobre nosotros</a>
-                </div>
-                <div class="mb-2">
-                    <a href="centros-vacunacion.html" class="text-dark text-decoration-none h6">Centros de vacunación</a>
-                </div>
-                <div class="mb-2">
-                    <a href="opinion.html" class="text-dark text-decoration-none h6">Consultas u sugerencias</a>
-                </div>
-            </div>
-        </div>
-    </div>  
-</footer>
+        </div>  
+    </footer>
+<script src="js/modo-oscuro.js"></script>
 </body>
 </html>

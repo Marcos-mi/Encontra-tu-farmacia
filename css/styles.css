@@ -23,6 +23,7 @@
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Lato', serif;
+    border: 0;
   }
   nav a{
     font-family: 'Lato', serif;
@@ -45,6 +46,7 @@ nav{
 .active{
     color: #8aa2a9;
 }
+
 
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
@@ -186,6 +188,9 @@ footer{
 }
 .ailu img{
     height: 90px;
+}
+.footer-a{
+    color: black ;
 }
 @media (max-width: 750px){
     #inicio .texto-inicio{

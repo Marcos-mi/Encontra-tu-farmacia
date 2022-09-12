@@ -26,7 +26,7 @@ nav a:hover{
 .active{
     /* border: 1px solid #00bd80; */
     border-radius: 20px;
-    padding: 5px 10px;
+    /*padding: 5px 10px;*/
 }
 
 .active{
@@ -103,4 +103,7 @@ footer{
 }
 .ailu img{
     height: 90px;
+}
+.footer-a{
+    color: black ;
 }
