@@ -60,9 +60,7 @@ main{
 .accordion-button:hover{
     color: #37ffca;
 } 
-.centrado{
-    margin-left: 24%;
-}
+
 .accordion-button:active{
     border: none;
     color: #00bd80;
