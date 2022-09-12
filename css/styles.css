@@ -202,6 +202,9 @@ footer{
 .ailu img{
     height: 90px;
 }
+.footer-a{
+    color: black ;
+}
 @media (max-width: 750px){
     #inicio .texto-inicio{
             color: #fefeff;

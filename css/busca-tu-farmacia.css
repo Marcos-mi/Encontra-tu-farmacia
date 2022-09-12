@@ -33,6 +33,9 @@ nav a:hover{
     height: 80px;
 }
 /* FOOTER */
+.footer-a{
+    color: black;
+}
 footer{
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);

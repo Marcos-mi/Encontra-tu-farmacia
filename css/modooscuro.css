@@ -14,6 +14,18 @@ body.dark nav{
     background: #222222;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
   }
+  body.dark .formulario__label{
+    color: #00bd80;
+  }
+  body.dark .content{
+    background: #222222;
+  }
+  body.dark .content p{
+   color: #F1F1F1;
+  }
+  body.dark  .footer-a{
+    color: #F1F1F1;
+  }
 .switch {
     background: #343D5B;
     border-radius: 1000px;
@@ -41,6 +53,9 @@ body.dark nav{
     background: orange;
     color: #000;
   }
+  .fa-sun{
+    margin-inline-start: 10px;
+  }
   .switch.active::after {
     right: 0;
     left: unset;
@@ -53,3 +68,7 @@ body.dark nav{
     background: none;
     color: #fff;
   }
+.switch .modo-oscuro{
+    background: #000;
+}
+

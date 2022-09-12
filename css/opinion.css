@@ -106,6 +106,7 @@ main{
 .formulario__btn:hover {
 	box-shadow: 3px 0px 30px rgba(163,163,163, 1);
 }
+
 input, 
 textarea {
 	border-radius: 5px !important;
@@ -144,6 +145,9 @@ textarea {
 }
 
 /* FOOTER */
+.footer-a{
+    color: black ;
+}
 footer{
     background: rgba(255,255,255,1);
     background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
