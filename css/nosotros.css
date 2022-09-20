@@ -11,6 +11,11 @@
    align-items: center;/*Alineo los elementos Verticalmente*/
    margin-right: 53px;/*Separo el texto de la imagen*/
 }
+#nosotros{
+	background-image: url(../img/fondo-contacto.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .logo-celular{
     height: 60px;
 }
@@ -46,7 +51,6 @@ main{
     padding-left: 120px;
     display: flex;
     flex-wrap: wrap; 
-    background: #b7e4c7;
 
 }
 .card{
@@ -149,8 +153,7 @@ p{
     font-family: 'Arvo', serif;
 }
 .titulo{
-    background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
-    color: #fefefe;
+    color: #0a0a0a;
     font-size: 20px;
     font-family: 'Lato', serif;
     margin: 0;
@@ -158,27 +161,22 @@ p{
 
 @media (max-width: 750px){
     main{
-        padding-left: 70px;
+        padding-left: 50px;
         display: flex;
         flex-wrap: wrap; 
-        background: #b7e4c7;
-    
     }
+    .ft{
+        color: #fff;
+        border: 1px solid  #fff;
+    }
+    .fa-arrow-right{
+        color: #fff;
+    } 
 }
+
 /* FOOTER */
 .footer-a{
     color: black ;
-}
-footer{
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(12%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
-    border-top: 1px solid #026d4d;
 }
 .jp-morgan img{
     height: 30px;
@@ -195,3 +193,8 @@ footer{
 .ailu img{
     height: 90px;
 }
+.ft{
+	border: 1px solid  #00bd80;
+	border-radius: 20px;
+	padding: 8px;
+  }

@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oxygen:wght@300&display=swap');
 
 /* navBar */
+#comentarios{
+	background-image: url(../img/fondo-contacto.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .title p{
     text-align: center;
     font-size: 1.2rem;
@@ -30,9 +35,7 @@ nav a{
     color: #8aa2a9;
 }
 /* main */
-main{
-    background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
-}
+
 /* formulario */
 .formulario__grupo-input {
 	position: relative;
@@ -148,17 +151,6 @@ textarea {
 .footer-a{
     color: black ;
 }
-footer{
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(12%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
-    border-top: 1px solid #026d4d;
-}
 .jp-morgan img{
     height: 30px;
 }
@@ -174,3 +166,11 @@ footer{
 .ailu img{
     height: 90px;
 }
+.formulario__label{
+    color: #00bd80;
+  }
+  .ft{
+	border: 1px solid  #00bd80;
+	border-radius: 20px;
+	padding: 8px;
+  }

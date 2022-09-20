@@ -14,9 +14,7 @@ body.dark nav{
     background: #222222;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.16);
   }
-  body.dark .formulario__label{
-    color: #00bd80;
-  }
+ 
   body.dark .content{
     background: #222222;
   }
@@ -25,6 +23,12 @@ body.dark nav{
   }
   body.dark  .footer-a{
     color: #F1F1F1;
+  }
+  body.dark .titulo{
+    color: #F1F1F1;
+    font-size: 20px;
+    font-family: 'Lato', serif;
+    margin: 0;
   }
 .switch {
     background: #343D5B;
