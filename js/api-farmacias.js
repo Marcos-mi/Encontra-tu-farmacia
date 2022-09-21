@@ -44,8 +44,7 @@ req.addEventListener('load', e => {
                     <div class="link">
                         <a href="https://www.google.com/maps/dir/${post[i].direccion}/@${longitud},${latitud},17z" target="_blank">Ubicación</a>
                     </div>
-                    </div>`;   
-                    
+                    </div>`;          
           
         } 
 

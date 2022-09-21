@@ -1,7 +1,8 @@
 
 let  map;
 let markers=[];
-
+let autocomplete;
+const input = document.getElementById('place_input');
 
 const  setListener = ()=>{
     document.querySelectorAll(".farmacia__individualNames").forEach((farmaciaName, index)=>{
@@ -47,7 +48,6 @@ const createMarker = (coord,name,address,phone)=>{
 }
 
 const createLocationMarkers = ()=>{
-    
  farmacias.forEach(farmacias=>{
      let coord = new google.maps.LatLng(farmacias.lat, farmacias.lng)
      let name = farmacias.name;
@@ -57,8 +57,6 @@ const createLocationMarkers = ()=>{
  })
 }
 
-
-
 function initMap(){
     let bsas = { lat : -34.6156625 , lng: -58.5033379 }
     map = new google.maps.Map(document.getElementById ("map"),{
@@ -66,13 +64,18 @@ function initMap(){
         zoom : 12,
         mapId: "a7aae35915f2a237",
     })
+    initAutocomplete();
     createLocationMarkers()
     infoWindow = new google.maps.InfoWindow();
     displayFarmaciasList();
     setListener();
+    initAutocomplete();
+}
+function initAutocomplete(){
+    autocomplete = new google.maps.places.Autocomplete(input);
 }
 const marker = new google.maps.Marker({
- position: bsas,
- map:map
+    position: bsas,
+    map:map
+    
 })
-  
