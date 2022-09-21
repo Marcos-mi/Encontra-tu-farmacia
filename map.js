@@ -73,8 +73,4 @@ function initMap(){
 function initAutocomplete(){
     autocomplete = new google.maps.places.Autocomplete(input)
 }
-const marker = new google.maps.Marker({
-    position: bsas,
-    map:map
-    
-})
+
