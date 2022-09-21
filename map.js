@@ -2,23 +2,7 @@
 let  map;
 let markers=[];
 
-if(navigator.geolocation){
-    navigator.geolocation.getCurrentPosition (
-        ({coords: {latitude , longitude}}) => { 
-        const coords = {
-        lat : latitude,
-        lng : longitude,
-        };
-    console.log(coords);
-        
-    }, 
-    () =>{
-        alert("Tu navegador esta bien pero tiene un error")
-    });
-    
-}else{
-    alert("Tu navegador no es compatible con la geolocalización");
-}
+
 const  setListener = ()=>{
     document.querySelectorAll(".farmacia__individualNames").forEach((farmaciaName, index)=>{
         farmaciaName.addEventListener("click", ()=>{
@@ -73,22 +57,22 @@ const createLocationMarkers = ()=>{
  })
 }
 
-const marker = new google.maps.Marker({
- position: bsas,
- map:map
-})
 
 
 function initMap(){
     let bsas = { lat : -34.6156625 , lng: -58.5033379 }
     map = new google.maps.Map(document.getElementById ("map"),{
-      center : bsas ,
-      zoom : 12,
-      mapId: "a7aae35915f2a237",
+        center : bsas ,
+        zoom : 12,
+        mapId: "a7aae35915f2a237",
     })
     createLocationMarkers()
     infoWindow = new google.maps.InfoWindow();
     displayFarmaciasList();
     setListener();
 }
+const marker = new google.maps.Marker({
+ position: bsas,
+ map:map
+})
   
