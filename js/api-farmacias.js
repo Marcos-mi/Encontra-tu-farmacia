@@ -2,8 +2,7 @@
 const req = new XMLHttpRequest();
 req.open('get', './datos/datos.json');
 req.addEventListener('load', e => {
-    let slider = document.querySelector('.carousel-indicators')
-    let datos = document.querySelector('.carousel-inner');
+    let datos = document.querySelector('.swiper-wrapper');
     if (e.target.status === 200) {
         let response = e.target.responseText;
         datos.innerHTML += '';
@@ -24,27 +23,15 @@ req.addEventListener('load', e => {
             let latitud = nuevoarrayreslonlat[1]
             console.log(longitud)
             console.log(latitud)
-            let on_off = 'active';
-            let boleano = true;
             
-            if(i > 0){
-                on_off = 'none'
-                boleano = false;
-            }
-            slider.innerHTML +=`<button id="btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="${i}" class=${on_off} aria-current="${boleano}" aria-label="Slide ${i}"></button>`
             datos.innerHTML += `
-                    <div class="card carousel-item ${on_off} col-4">
-                    <div class="face front">
+            <div class="swiper-slide">
                     <img src="img/hospitales/hospital-argerich.jpg" alt="">
                     <h3>${post[i].efector}</h3>
-                    </div>
-                    <div class="face back">
-                    <h3>${post[i].clasif_int}</h3>
+                    <h4>${post[i].clasif_int}</h4>
                     <p>Direccion:${post[i].direccion}</p>
-                    <div class="link">
-                        <a href="https://www.google.com/maps/dir/${post[i].direccion}/@${longitud},${latitud},17z" target="_blank">Ubicación</a>
-                    </div>
-                    </div>`;   
+                    <a href="https://www.google.com/maps/dir/${post[i].direccion}/@${longitud},${latitud},17z" target="_blank">Ubicación</a>
+            </div>`;   
                     
           
         } 
@@ -57,3 +44,20 @@ req.addEventListener('load', e => {
     }
 });
 req.send();
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
