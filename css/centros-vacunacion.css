@@ -92,6 +92,18 @@ footer{
     display: block;
     width: 100%;
   }
+  .swiper-slide h3 , h4, p{
+    text-align: center;
+    justify-content: center;
+  }
+  .swiper-slide a{
+    align-items: center;
+  }
+
+  
+  
+
+
 
 
 
