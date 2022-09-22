@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/modooscuro.css">
     <link rel="stylesheet" href="css/centros-vacunacion.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 
 </head>
 <body  class="d-flex flex-column h-100">
@@ -61,24 +62,13 @@
         </nav>
     </header>   
     <main>
-        <section >
-                    <H1>CABA</H1>
-            <div id="carouselExampleControls " class="carousel slide row" data-bs-ride="carousel">
-                <div class="carousel-indicators col-12">
-                   
+        <section>
+            <div class="swiper mySwiper grid">
+                <div class="swiper-wrapper">
+                    
                 </div>
-                <div class="grid carousel-inner col-12 ">
-                
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </section>        
 
 
@@ -159,8 +149,10 @@
             </div>
         </div>  
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="js/api-farmacias.js"></script>
     <script src="js/modo-oscuro.js"></script>
+    <script src="js/fun.js"></script>
+    
 </body>
 </html>
