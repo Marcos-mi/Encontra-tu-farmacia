@@ -29,7 +29,7 @@ req.addEventListener('load', e => {
                     <h3>${post[i].efector}</h3>
                     <h4>${post[i].clasif_int}</h4>
                     <p>Direccion:${post[i].direccion}</p>
-                    <a href="https://www.google.com/maps/dir/${post[i].direccion}/@${longitud},${latitud},17z" target="_blank">Ubicación</a>
+                    <a href="https://www.google.com/maps/dir//${post[i].direccion}/@${longitud},${latitud},17z" target="_blank">Ubicación</a>
             </div>`;   
                     
           
