@@ -14,13 +14,62 @@
     <link rel="stylesheet" href="css/modooscuro.css">
     <link rel="stylesheet" href="css/farmacias.css">
 </head>
-<body>
+<body  class="d-flex flex-column h-100" id="busca-tu-farmacia">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html"><img src="img/logo_v.3sinfondo.png"  alt="logo" class="logo-celular"></a> 
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item  py-2 logoNav">
+                           <img src="img/logo-transparente.png" alt="logo" class="d-none">
+                        </li>
+                        <li class="nav-item  py-sm-3 ">
+                            <a href="index.html" class="logo">
+                                <h3>Encontrá tu farmacia</h3>
+                            </a> 
+                        </li>
+                        <li class="nav-item px-sm-5 ps-2 py-sm-4 py-1">
+                            <a class="nav-link> " href="index.html">Home</a>
+                         </li>
+                          <li class="nav-item px-sm-5  ps-2 py-sm-4 py-1">
+                            <a class="nav-link> active " href="#">Buscá tu farmacia</a>
+                         </li>
+                          <li class="nav-item px-sm-5  ps-2 py-sm-4 py-1">
+                            <a class="nav-link> " href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+                         </li>
+                         <li class="nav-item px-sm-5  ps-2  py-sm-4 py-1">
+                             <a class="nav-link> " href="nosotros.html">Sobre nosotros</a>
+                         </li>
+                         <li class="nav-item px-sm-5  ps-2  py-sm-4 py-1">
+                             <a class="nav-link>" href="centros-vacunacion.html">Servicios</a>
+                         </li>
+                         <li class="nav-item px-sm-5  ps-2 py-sm-4 py-1">
+                             <a class="nav-link> " href="opinion.html">Consultas & sugerencias</a>
+                         </li>
+                         <li>
+                            <buttons class="switch mt-4 col-lg-12 col-sm-1 col-2" id="switch">
+                                <span><i class="fas fa-sun"></i></span>
+                                <span><i class="fas fa-moon"></i></span>
+                            </buttons> 
+                        </li>
+                    </ul>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>  
     <div class="row">
         <div class="col-4 ms-5 mt-3 mb-3">
             <input type="text" id="buscador" class="form-control" placeholder="Ingresa tu localidad">
         </div>
-        <div class="col-4 mt-3 mb-3">
-            <input type="button" id="button" value="Mostrar mi ubicación" class="form-control bg-success text-white" >
+        <div class="col-2 mt-3 mb-3 ">
+            <input type="button" id="button" value="Mostrar mi ubicación" class="btn bg-success text-white" >
         </div>
     </div>
     <div id="map" class="col-4 ms-5"></div>
@@ -30,6 +79,82 @@
                 <div class="farmacias__names" id="farmacias__names"></div>
             </div> 
     </main>
+    <footer class="mt-auto">
+        <div class="container-fluid grid">
+            <div class="row p-5 ">
+                <div class="col-xs-12 col-md-6 col-lg-3 "> 
+                    <p class="h4 p-footer">¡Gracias por la oportunidad de poder formarnos y acompañarnos durante el proceso!</p>
+                    <div class="mb-2 sponsors">
+                        <a href="http://www.pescar.org.ar/wp/" target="_blank" class="fundacion-pescar"><img src="img/pescar-sin-fondo.png" alt="Fundación Pescar"  title="Fundación Pescar"></a>
+                        <a href="https://www.linkedin.com/in/ailen-siccardi/" target="_blank" class="ailu"><img src="img/AilenSiccardi (1).png" alt="Ailén Siccardi"  title="Fundación Pescar- Ailén Siccardi"></a>
+                        <a href="https://www.jpmorgan.com/AR/es/about-us" target="_blank" class="jp-morgan"><img src="img/jpMorgan.png" alt="Jp Morgan chase & co." title="Jp Morgan chase & co."></a>
+                        <a href="https://www.educacionit.com/?gclid=CjwKCAjwi8iXBhBeEiwAKbUofe89kd4iSQYf7Td0jlH6my15Pjqcr6iAuW7K6FibNSzu8KhTBZa24BoC14IQAvD_BwE#categorias" target="_blank" class="educacionit-tamaño"><img src="img/educacionIT-sin-fondo.png" alt="educacion it logo" title="educación IT"></a>
+                    </div> 
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 p-footer">GrupDev</p>  
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/juan-yovera/" target="_blank" class="h6 text-decoration-none footer-a">Juan Yovera</a>                    
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/marcos-mi%C3%B1o/" target="_blank" class="h6 text-decoration-none footer-a">Marcos Miño</a>                
+                    </div> 
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/nicolasquispe/" target="_blank" class="h6 text-decoration-none footer-a">Nicolas Quispe</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/imanol-eduardo-oliva/" target="_blank" class="h6 text-decoration-none footer-a">Imanol Oliva</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="https://www.linkedin.com/in/lucasivanbarrios/" target="_blank" class="h6 text-decoration-none footer-a">Lucas Barrios</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 p-footer">Teléfonos útiles</p>  
+                    <div class="mb-2">
+                        <a href="tel:100" class="h6 text-decoration-none footer-a">100 | Bomberos</a>                    
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:103" class="h6 text-decoration-none footer-a">103 | Defensa Civil</a>                
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:107" class="h6 text-decoration-none footer-a">107 ó 4691729 | SAME</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:144" class="h6 text-decoration-none footer-a">144 | Violencia de Género</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:148" class="h6 text-decoration-none footer-a">148 | Atención Ciudadana</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="tel:911" class="h6 text-decoration-none footer-a">911 | Emergencias</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3 ">
+                    <p class="h5 p-footer">Mapa del sitio</p>
+                    <div class="mb-2">
+                        <a href="index.html" class="footer-a text-decoration-none h6">Home</a>
+                    </div>
+                    <div class="mb-2">
+                        <i class="fa-solid fa-arrow-right"></i> <a href="#" class=" text-decoration-none h6 ft">Busca tu farmacia</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="preguntas-frecuentes.html" class="footer-a text-decoration-none h6">Preguntas frecuentes</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="nosotros.html" class="footer-a text-decoration-none h6">Sobre nosotros</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="centros-vacunacion.html" class=" footer-a text-decoration-none h6 ">Servicios</a>
+                    </div>
+                    <div class="mb-2">
+                        <a href="opinion.html" class="footer-a text-decoration-none h6">Consultas & sugerencias</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </footer>
+   
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDseDi3i0AqQ8Ng7HFDsbMh8h-3I0kHZxg&libraries=places&map_ids=a7aae35915f2a237&callback=initMap">
     </script> 

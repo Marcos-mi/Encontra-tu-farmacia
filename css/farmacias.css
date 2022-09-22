@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oxygen:wght@300&display=swap');
+#busca-tu-farmacia{
+	background-image: url(../img/fondo-contacto.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 html,body {
     height : 50%;
    margin : 0 ;
     padding : 0 ;
   }
   #map {
-      height : 100%;
+      height : 50%;
   }
   input{
     border-radius: 0;
@@ -37,3 +43,68 @@ html,body {
     font-size: 18px;
     text-align: center;
   } 
+  element.style {
+    height : 50%;
+    width: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/* navbar */
+.logo-celular{
+    height: 60px;
+}
+.title p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+  }
+  nav a{
+    font-family: 'Lato', serif;
+    text-decoration: none;
+    color: #00bd80;
+}
+.navbar-toggler{
+    border: 3px solid  #97E8B5;   
+   }
+nav a:hover{
+    color:#37ffca;
+}
+.active{
+    color: #8aa2a9;
+}
+/* FOOTER */
+.jp-morgan img{
+    height: 30px;
+}
+.fundacion-pescar img{
+    height: 60px;
+}
+.educacionit-tamaño img{
+    height: 80px;
+}
+/* FOOTER */
+.footer-a{
+    color: black;
+}
+.jp-morgan img{
+    height: 30px;
+}
+.fundacion-pescar img{
+    height: 60px;
+}
+.educacionit-tamaño img{
+    height: 80px;
+}
+.p-footer{
+    color:#026d4d;
+}
+.ailu img{
+    height: 90px;
+}
+.ft{
+	border: 1px solid  #00bd80;
+	border-radius: 20px;
+	padding: 8px;
+  color: black;
+  }
