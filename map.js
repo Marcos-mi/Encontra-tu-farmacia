@@ -2,6 +2,8 @@
 let  map;
 let markers=[];
 let autocomplete;
+let watchID;
+let geoLoc;
 const input = document.getElementById("buscador");
 
 const  setListener = ()=>{
@@ -68,9 +70,42 @@ function initMap(){
     displayFarmaciasList();
     setListener();
     initAutocomplete();
+    getPosition();
 }
 
-function initAutocomplete(){
+
+
+function initAutocomplete()
+{
     autocomplete = new google.maps.places.Autocomplete(input)
+    autocomplete.addListener("place_changed",function(){
+        const place = autocomplete.getPlace();
+        map.setCenter(place.geometry.location);
+    })
 }
-
+function getPosition()
+{
+    if(navigator.geolocation){
+           // ejecuta cada 60000 milisegundos ( 60 segundos , 1 minuto )
+           var options = {timeout:60000};
+           geoLoc = navigator.geolocation;
+           watchID = geoLoc.watchPosition(showLocationOnMap,errorHandler,options);
+       }else{
+        alert("Lo sentimos , el explorador no soporta geolocalización ");
+       }
+}
+function showLocationOnMap(position){
+    var latitud = position.coords.latitude;
+    var longitud = position.coords.longitude;
+                                           
+    const myLatLng = {lat:latitud , lng:longitud } ;
+   /*  marker.setPosition(bsas); */
+    map.setCenter(bsas);
+}
+    function errorHandler(err) {
+        if(err.code==1) {
+          alert ( " Error : Acceso denegado ! " ) ;
+      } else if ( err.code == 2 ) {
+          alert ( " Error : Position no existe o no se encuentral " ) ;
+      }
+    }

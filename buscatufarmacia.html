@@ -15,13 +15,20 @@
     <link rel="stylesheet" href="css/farmacias.css">
 </head>
 <body>
-    <input type="text" id="buscador" placeholder="Ingresa tu localidad">
-    <div id="map"></div>
+    <div class="row">
+        <div class="col-4 ms-5 mt-3 mb-3">
+            <input type="text" id="buscador" class="form-control" placeholder="Ingresa tu localidad">
+        </div>
+        <div class="col-4 mt-3 mb-3">
+            <input type="button" value="Mi ubicación" class="form-control bg-success text-white" >
+        </div>
+    </div>
+    <div id="map" class="col-4 ms-5"></div>
     <main>
-        <div class= "farmacias_list">
-        <h3>Lista de Farmacias de turno de CABA </h3>
-        <div class="farmacias__names" id="farmacias__names"></div>
-       <div>
+            <div class= "farmacias_list">
+                <h3>Lista de Farmacias de turno de CABA </h3>
+                <div class="farmacias__names" id="farmacias__names"></div>
+            </div> 
     </main>
     <script async
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDseDi3i0AqQ8Ng7HFDsbMh8h-3I0kHZxg&libraries=places&map_ids=a7aae35915f2a237&callback=initMap">
