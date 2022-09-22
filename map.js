@@ -58,54 +58,60 @@ const createLocationMarkers = ()=>{
      createMarker(coord,name,address,phone)
  })
 }
+//Se crea la para que cuando el usuario haga click sobre el boton de busqueda se cree una marcador en su ubicación
+function mostrarUbicacionDelUsuario(map, marker){
+    if ( navigator.geolocation ) {
+        navigator.geolocation.getCurrentPosition(
+          ({ coords : { latitude , longitude } } ) => {
+            const coords = {
+              lat : latitude,
+              lng : longitude,
+            };
+            map.setCenter(coords);
+            map.setZoom(14);
+            marker.setPosition(coords);
+          },
+          ()=> { 
+            alert("Tu navegador esta bien , pero ocurrio un error ");
+        }
+        );
+        }else {
+        alert("Tu navegador no dispone de la geolocalizcion , actualizalo");
+        } 
+}
+//Se llama al mapa y se le pasan los parametros y funciones que se tienen que ejecutar al inicializarlo
 function initMap(){
-    let bsas = { lat : -34.6156625 , lng: -58.5033379 }
+    const bsas = { lat : -34.6156625 , lng: -58.5033379 }
     map = new google.maps.Map(document.getElementById ("map"),{
         center : bsas ,
         zoom : 12,
         mapId: "a7aae35915f2a237",
+    });
+    const marker = new google.maps.Marker({
+        position: bsas,
+        map,
     })
     createLocationMarkers()
     infoWindow = new google.maps.InfoWindow();
     displayFarmaciasList();
     setListener();
+    //Se llama a la funcion de autocompletado
     initAutocomplete();
-    getPosition();
+    //Se crea el evento y se llama  para que cuando el usuario haga click sobre el boton de busqueda se cree una marcador en su ubicación
+    button.addEventListener("click", () =>{
+        mostrarUbicacionDelUsuario(map, marker);
+    }); 
 }
 
-
-
+//Se crea la funcion para autocompletar el input de busqueda de localidades y se resetean valoren que ya habian sido definidos en otras funciones anteriormente
 function initAutocomplete()
 {
     autocomplete = new google.maps.places.Autocomplete(input)
     autocomplete.addListener("place_changed",function(){
         const place = autocomplete.getPlace();
         map.setCenter(place.geometry.location);
+        map.setZoom(13);
     })
 }
-function getPosition()
-{
-    if(navigator.geolocation){
-           // ejecuta cada 60000 milisegundos ( 60 segundos , 1 minuto )
-           var options = {timeout:60000};
-           geoLoc = navigator.geolocation;
-           watchID = geoLoc.watchPosition(showLocationOnMap,errorHandler,options);
-       }else{
-        alert("Lo sentimos , el explorador no soporta geolocalización ");
-       }
-}
-function showLocationOnMap(position){
-    var latitud = position.coords.latitude;
-    var longitud = position.coords.longitude;
-                                           
-    const myLatLng = {lat:latitud , lng:longitud } ;
-   /*  marker.setPosition(bsas); */
-    map.setCenter(bsas);
-}
-    function errorHandler(err) {
-        if(err.code==1) {
-          alert ( " Error : Acceso denegado ! " ) ;
-      } else if ( err.code == 2 ) {
-          alert ( " Error : Position no existe o no se encuentral " ) ;
-      }
-    }
+
+       
