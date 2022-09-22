@@ -58,7 +58,7 @@ const createLocationMarkers = ()=>{
      createMarker(coord,name,address,phone)
  })
 }
-//Se crea la para que cuando el usuario haga click sobre el boton de busqueda se cree una marcador en su ubicación
+//Se crea función la para que cuando el usuario haga click sobre el boton de busqueda se cree una marcador en su ubicación
 function mostrarUbicacionDelUsuario(map, marker){
     if ( navigator.geolocation ) {
         navigator.geolocation.getCurrentPosition(
@@ -88,9 +88,10 @@ function initMap(){
         mapId: "a7aae35915f2a237",
     });
     const marker = new google.maps.Marker({
-        position: bsas,
+        position: "",
         map,
     })
+    //Se llama a la función que crea los markers
     createLocationMarkers()
     infoWindow = new google.maps.InfoWindow();
     displayFarmaciasList();
@@ -107,10 +108,22 @@ function initMap(){
 function initAutocomplete()
 {
     autocomplete = new google.maps.places.Autocomplete(input)
+    //utilizo bounds estrictos.
+    strictBounds: true,
+    //defino los bunds de limites
+    autocomplete.bindTo("bounds", map)
+
+    //autocompleado
     autocomplete.addListener("place_changed",function(){
         const place = autocomplete.getPlace();
-        map.setCenter(place.geometry.location);
+        const {geometry} = place;
+        const {vieport, location} = geometry;
+        //reseteo localizacion y zoom cuando el usuario busca X lugar
+        map.setCenter(location);
         map.setZoom(13);
+
+        //movemos los limites de la busqueda mediante la vista del viewport y lo vinculamos al autocompletado
+        map.fitBound(vieport)
     })
 }
 
