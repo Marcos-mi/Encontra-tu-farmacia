@@ -24,6 +24,9 @@ body.dark nav{
   body.dark  .footer-a{
     color: #F1F1F1;
   }
+  body.dark  .fa-arrow-right{
+    color: #F1F1F1;
+  }
   body.dark .titulo{
     color: #F1F1F1;
     font-size: 20px;

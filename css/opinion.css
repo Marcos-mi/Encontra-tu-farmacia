@@ -10,13 +10,14 @@
     text-align: center;
     font-size: 1.2rem;
 }
-.navbar-toggler{
- border: 3px solid  #97E8B5;   
-}
 nav a{
     font-family: 'Lato',sans-serif;
     text-decoration: none;
-    color: #00bd80;
+    color: #71C948	;
+}
+
+.active{
+	color:  #026d4d;
 }
 *{
 	margin: 0;
@@ -31,9 +32,6 @@ nav a{
 .logo-celular-form{
     height: 450px;
 } 
-.active{
-    color: #8aa2a9;
-}
 /* main */
 
 /* formulario */
@@ -96,7 +94,7 @@ nav a{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-image: linear-gradient(to right, #026d4d 0%, #91f947 100%);
+	background-image: linear-gradient(to right, #026d4d 0%, #71C948	100%);
 	transition: .5s ease;
 	display: block;
 	z-index: -1;
@@ -161,16 +159,16 @@ textarea {
     height: 80px;
 }
 .p-footer{
-    color:#026d4d;
+    color:#71C948	;
 }
 .ailu img{
     height: 90px;
 }
 .formulario__label{
-    color: #00bd80;
+    color:#71C948	;
   }
   .ft{
-	border: 1px solid  #00bd80;
+	border: 1px solid  #71C948	;
 	border-radius: 20px;
 	padding: 8px;
   }
