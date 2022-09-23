@@ -30,7 +30,7 @@
   nav a{
     font-family: 'Lato', serif;
     text-decoration: none;
-    color: #00bd80;
+    color: #71C948;
 }
 nav a:hover{
     color:#37ffca;
@@ -188,13 +188,13 @@ p{
     height: 80px;
 }
 .p-footer{
-    color:#026d4d;
+    color: #71C948;
 }
 .ailu img{
     height: 90px;
 }
 .ft{
-	border: 1px solid  #00bd80;
+	border: 1px solid  #71C948;
 	border-radius: 20px;
 	padding: 8px;
   }

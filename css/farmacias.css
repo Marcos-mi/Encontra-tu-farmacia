@@ -22,7 +22,7 @@ html,body {
     left : 50vw;
     font-size: 18px;
     color: white;
-    background-color : #00bd80;
+    background-color : #71C948;
     padding: 10px;
     /*  opacity : 0.8 ; */
     border-radius : 20px;
@@ -62,7 +62,7 @@ html,body {
   nav a{
     font-family: 'Lato', serif;
     text-decoration: none;
-    color: #00bd80;
+    color: #71C948;
 }
 .navbar-toggler{
     border: 3px solid  #97E8B5;   
@@ -97,13 +97,13 @@ nav a:hover{
     height: 80px;
 }
 .p-footer{
-    color:#026d4d;
+    color:#71C948;
 }
 .ailu img{
     height: 90px;
 }
 .ft{
-	border: 1px solid  #00bd80;
+	border: 1px solid  #71C948;
 	border-radius: 20px;
 	padding: 8px;
   color: black;
