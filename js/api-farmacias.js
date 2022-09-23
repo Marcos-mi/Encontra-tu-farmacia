@@ -24,12 +24,14 @@ req.addEventListener('load', e => {
             console.log(latitud)
             
             datos.innerHTML += `
-            <div class="swiper-slide">
+            <div class="swiper-slide text-center">
                     <img src="img/hospitales/hospital-argerich.jpg" alt="">
                     <h3>${post[i].efector}</h3>
                     <h4>${post[i].clasif_int}</h4>
                     <p>Direccion:${post[i].direccion}</p>
+                    <button type="button" class="btn btn-outline-secundary">
                     <a href="https://www.google.com/maps/dir//${post[i].direccion}/@${longitud},${latitud},17z" target="_blank">Ubicación</a>
+                    </button>
             </div>`;   
                     
           
