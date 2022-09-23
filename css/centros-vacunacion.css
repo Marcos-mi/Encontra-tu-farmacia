@@ -82,8 +82,13 @@ nav a:hover{
     display: block;
     width: 100%;
   }
-  
-  
+  .swiper-slide a {
+    text-decoration: none;
+    color: #000;
+  }
+  .swiper-slide .btn{
+    margin-bottom: 7px;
+  }
   
 
 
