@@ -14,8 +14,9 @@
 #nosotros{
 	background-image: url(../img/fondo-contacto.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+    background-size: cover;
 }
+
 
 .navbar-toggler{
     border: 3px solid  #97E8B5;   
@@ -45,7 +46,7 @@ nav a:hover{
 } 
 
 .active { 
-    color: #71C948;
+    color: #257400;
     box-shadow: 0 0  10px #8eada3;
     padding: 3px;
 
@@ -64,6 +65,7 @@ main{
     flex-wrap: wrap; 
 
 }
+
 .card{
     justify-content: column;
     position: relative;

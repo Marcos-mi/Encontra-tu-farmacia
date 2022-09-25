@@ -141,7 +141,9 @@ a:hover{
     font-size: 1.5em;
     font-weight: bold;
    }
-
+   #show{
+    display: none;
+   }
 /* Ver totales */
 .shadow__btn {
     padding: 10px 20px;
