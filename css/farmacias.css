@@ -1,47 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Oxygen:wght@300&display=swap');
-#busca-tu-farmacia{
+/* #busca-tu-farmacia{
 	background-image: url(../img/fondo-contacto.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+} */
 html,body {
     height : 50%;
    margin : 0 ;
     padding : 0 ;
   }
   #map {
-      height : 50%;
+      height : 300px;
   }
   input{
     border-radius: 0;
     font-size: 20px;
   }
    .farmacias_list {
-    position : absolute ;
-    top : 8vh ;
-    left : 50vw;
-    font-size: 18px;
     color: white;
     background-color : #71C948;
-    padding: 10px;
-    /*  opacity : 0.8 ; */
-    border-radius : 20px;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 15px;
   }
   .farmacias_list > h3{
-    text-align: center;
-    border-bottom: 3px solid gainsboro;
-    font-size: 20px;
+    border-bottom: 2px solid gainsboro;
+    font-size: 18px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    font-family: 'Lato',sans-serif;
+  }
+  .mi-ubicacion{
+    background-color: #71C948;
+  }
+  .main{
+    background: #eee !important ;
+  }
+  .ubi{
+    color: #ffff;
+    border-bottom: 1px solid #ffff;
+    padding: 0;
+  }
+  .ubi:hover{
+    color: #ffff;
+    border-bottom: 1px solid #ffff !important;
+    padding: 0;
+    border: none;
+  }
+  .window{
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    background-color: #333;
+  }
+  .gm-style-iw{
+    background-color: #333 !important;
+    opacity: 0,8 !important;
+    box-shadow: 0 2px 7px 7px rgba(0, 0, 0,0.5) ;
+  }
+  .window > h2{
+    border-bottom: 2px solid gainsboro;
+    font-size: 18px;
+  }
+  .h3, h3 {
+    font-size: 14px;
+  }
+  .address, .phone{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .address > i{
+    margin-right: 1rem;
+    color: tomato;
+  }
+  .phone > i{
+    margin-right: 1rem;
+    color: lightblue;
+  }
+  .gm-style-iw-t::after{
+    visibility: hidden;
+  }
+  .gm-ui-hover-effect{
+    background-color: #ffff !important;
+    border-radius: 50% !important;
+  }
+  .gm-style-iw-d{
+    overflow: hidden !important;
   }
   .farmacias__names{
     cursor: pointer;
   } 
   .farmacias__names > h4{
-    font-size: 18px;
-    text-align: center;
+    font-size: 14px;
+    color: #ffff;
+    font-weight: 800;
+    font-family: 'Oxygen', serif;
   } 
   element.style {
     height : 50%;
@@ -108,3 +162,12 @@ nav a:hover{
 	padding: 8px;
   color: black;
   }
+  @media (max-width: 750px){
+    html,body {
+        height : 30%;
+       margin : 0 ;
+        padding : 0 ;
+      }
+
+    }
+  

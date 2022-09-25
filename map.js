@@ -23,7 +23,7 @@ const displayFarmaciasList = ()=>{
     document.getElementById("farmacias__names").innerHTML = farmaciaHTML;
 }
 
-const createMarker = (coord,name,address,phone)=>{
+const createMarker = (coord,name,address,phone,localizacion,lng,lat)=>{
     let html = 
     `<div class="window">
         <h2>${name}</h2>
@@ -32,8 +32,11 @@ const createMarker = (coord,name,address,phone)=>{
         <h3>${address}</h3>
         </div>
         <div class="phone">
-        <i class="fa-solid fa-phone"></i>
-        <h3>${phone}</h3>
+        <i class="fa-solid fa-phone fa-lg"></i>
+        <h3>${phone}</h3> 
+        </div>
+        <div>
+        <a href="https://www.google.com/maps/dir//${address}/@${lng},${lat},17z" class="btn ubi"  target="_blank">¿Cómo llegar?</a>
         </div>
     </div>`
     

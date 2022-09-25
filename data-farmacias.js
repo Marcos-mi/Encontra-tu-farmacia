@@ -19,6 +19,7 @@ let farmacias = [
         lng :-58.3949557 ,
         address : "Jujuy 228 " ,
         phone : " 4931-7165 " ,
+
     },
     {
         name : "  Moreno  OSPF " ,
@@ -26,6 +27,7 @@ let farmacias = [
         lng :-58.3949557 ,
         address : " Moreno 1550 " ,
         phone : "  4346-5758 " ,
+
     },
     {
         name : "  Olivera " ,
@@ -33,7 +35,10 @@ let farmacias = [
         lng :-58.3777536 ,
         address : " Av. Caseros 1000 " ,
         phone : " 4302-7028 " ,
-    },
+
+    }
+]
+let farmacias_moreno = [
     {
         name : "FARMACIA DEL PROVINCIA" ,
         lat : -34.6033804,
