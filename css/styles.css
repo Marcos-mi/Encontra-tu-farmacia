@@ -61,7 +61,7 @@ nav a:hover{
     font-family: 'Lato',sans-serif;
 } 
  h2{
-    color:#026d4d;
+    color:#71C948;
     font-size: 35px;
     font-weight: 900;
     font-family: 'Lato',sans-serif;
@@ -72,7 +72,7 @@ nav a:hover{
     margin: 0;
 }
 .border a{
-    color:#00694d;
+    color:#42961b;
     text-decoration: none;
 }
 a:hover{
@@ -104,7 +104,7 @@ a:hover{
     border: 2px solid #c3c6ce;
     transition: 0.5s ease-out;
     overflow: visible;
-    border-color: #026d4d;
+    border-color: #71C948;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
    }
    
@@ -121,7 +121,7 @@ a:hover{
     width: 60%;
     border-radius: 1rem;
     border: none;
-    background-color: #026d4d;
+    background-color: #71C948;
     color: #fff;
     font-size: 1rem;
     padding: .5rem 1rem;
@@ -158,16 +158,18 @@ a:hover{
   }
   
   .shadow__btn {
-    background: #026d4d;
-    box-shadow: 0 0 25px rgb(4, 80, 58);
+    background: #71C948;
+    box-shadow: 0 0 25px #3c8819;
   }
   
   .shadow__btn:hover {
-    box-shadow: 0 0 5px rgba(10, 72, 26, 0.443),
-                0 0 25px rgba(10, 72, 26, 0.443),
-                0 0 50px rgba(10, 72, 26, 0.443),
-                0 0 100px rgba(10, 72, 26, 0.443);
+    -webkit-box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
+-moz-box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
+box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
   }
+.fa-sharp{
+    font-size: 10px;
+}
 /* FOOTER */
 
 .jp-morgan img{
