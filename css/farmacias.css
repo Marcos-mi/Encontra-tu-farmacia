@@ -20,6 +20,10 @@ html,body {
     color: white;
     background-color : #71C948;
     padding: 15px;
+    border-radius: 20px;
+    -webkit-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
   }
   .farmacias_list > h3{
     border-bottom: 2px solid gainsboro;
@@ -29,6 +33,12 @@ html,body {
     font-family: 'Lato',sans-serif;
   }
   .mi-ubicacion{
+    background-color: #71C948;
+  }
+  .btn:focus{
+    background-color: #71C948 !important;
+  }
+  .mi-ubicacion:hover{
     background-color: #71C948;
   }
   .main{

@@ -22,8 +22,15 @@ const displayFarmaciasList = ()=>{
     })
     document.getElementById("farmacias__names").innerHTML = farmaciaHTML;
 }
+const displayFarmaciasListZo = ()=>{
+    let farmaciaHTML= "";
+    farmaciasZo.forEach(farmaciasZo=>{
+        farmaciaHTML += `<h4 class="farmacia__individualNames">${farmaciasZo.name}</h4>`
+    })
+    document.getElementById("farmacias__names2").innerHTML = farmaciaHTML;
+}
 
-const createMarker = (coord,name,address,phone,localizacion,lng,lat)=>{
+const createMarker = (coord,name,address,phone,lng,lat)=>{
     let html = 
     `<div class="window">
         <h2>${name}</h2>
@@ -58,6 +65,15 @@ const createLocationMarkers = ()=>{
      let name = farmacias.name;
      let address = farmacias.address
      let phone = farmacias.phone
+     createMarker(coord,name,address,phone)
+ })
+}
+const createLocationMarkersZo = ()=>{
+ farmaciasZo.forEach(farmaciasZo=>{
+     let coord = new google.maps.LatLng(farmaciasZo.lat, farmaciasZo.lng)
+     let name = farmaciasZo.name;
+     let address = farmaciasZo.address
+     let phone = farmaciasZo.phone
      createMarker(coord,name,address,phone)
  })
 }
@@ -96,8 +112,10 @@ function initMap(){
     })
     //Se llama a la función que crea los markers
     createLocationMarkers()
+    createLocationMarkersZo()
     infoWindow = new google.maps.InfoWindow();
     displayFarmaciasList();
+    displayFarmaciasListZo();
     setListener();
     //Se llama a la funcion de autocompletado
     initAutocomplete();

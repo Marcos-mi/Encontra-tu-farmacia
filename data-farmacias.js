@@ -38,7 +38,7 @@ let farmacias = [
 
     }
 ]
-let farmacias_moreno = [
+let farmaciasZo = [
     {
         name : "FARMACIA DEL PROVINCIA" ,
         lat : -34.6033804,
