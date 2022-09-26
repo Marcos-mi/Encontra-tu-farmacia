@@ -7,18 +7,66 @@ let farmacias = [
         phone : " 4372-2206 " ,
     },
     {
-        name : "  Emelea " ,
-        lat : -34.6046045,
-        lng :-58.3949557 ,
-        address : "  Jujuy 509  " ,
-        phone : " 4931-2769 " ,
+        name : "Farmacia Nueva San Nicolás " ,
+        lat : -34.5955418,
+        lng :-58.4031799 ,
+        address : "Santa Fe 1299 " ,
+        phone : "01148114152 " ,
     },
     {
-        name : " De la Ciudad " ,
+        name : "Farmacéutica Mundial " ,
+        lat : -34.551546,
+        lng :-58.5010023 ,
+        address : " Av. Ricardo Balbín 4955  " ,
+        phone : "  4542-6681 " ,
+
+    },
+    {
+        name : " Farmacia Belén S.A. " ,
+        lat : -34.6772021,
+        lng :-58.4757374 ,
+        address : "  Av. Riestra 5701 " ,
+        phone : "  01146010287 " ,
+
+    },
+    {
+        name : "  Moreno  OSPF " ,
         lat : -34.6046045,
         lng :-58.3949557 ,
-        address : "Jujuy 228 " ,
-        phone : " 4931-7165 " ,
+        address : " Moreno 1550 " ,
+        phone : "  4346-5758 " ,
+
+    },
+    {
+        name : "  Moreno  OSPF " ,
+        lat : -34.6046045,
+        lng :-58.3949557 ,
+        address : " Moreno 1550 " ,
+        phone : "  4346-5758 " ,
+
+    },
+    {
+        name : "  Moreno  OSPF " ,
+        lat : -34.6046045,
+        lng :-58.3949557 ,
+        address : " Moreno 1550 " ,
+        phone : "  4346-5758 " ,
+
+    },
+    {
+        name : "  Moreno  OSPF " ,
+        lat : -34.6046045,
+        lng :-58.3949557 ,
+        address : " Moreno 1550 " ,
+        phone : "  4346-5758 " ,
+
+    },
+    {
+        name : "  Moreno  OSPF " ,
+        lat : -34.6046045,
+        lng :-58.3949557 ,
+        address : " Moreno 1550 " ,
+        phone : "  4346-5758 " ,
 
     },
     {
@@ -115,5 +163,85 @@ let farmaciasZo = [
         lng :-58.7643953,
         address : "Leonardo Da Vinci 3100  " ,
         phone : "0237 481-4752 " ,
+    }
+]
+let farmaciasZn = [
+
+    {
+        name : "FARMACIA  SELMA" ,
+        lat : -34.6033804,
+        lng :-58.8664776,
+        address : " Av. Centenario 300  " ,
+        phone : "4513-0510 " ,
+    },
+    {
+        name : "FARMACIA PHARMAKION" ,
+        lat : -34.6569412,
+        lng :-58.8030035,
+        address : " D. Carman 621  " ,
+        phone : "4765-8695 " ,
+    },
+    {
+        name : "Z. VITAL MARTÍNEZ" ,
+        lat : -34.6587112,
+        lng :-58.7647196,
+        address : "Av. Santa Fe 2013 " ,
+        phone : "4793-4774 " ,
+    },
+    {
+        name : " PALADINO" ,
+        lat : -34.6283025,
+        lng :-58.3779002,
+        address : " Av. Sta Fe 902, B1641ABO Acassuso " ,
+        phone : " 4793-8900 " ,
+    },
+    {
+        name : " FARMACIA  SCHINCA" ,
+        lat : -34.6393636,
+        lng :-58.7373673,
+        address : "Av. Avelino Rolón 2415, B1609HVR Boulogne " ,
+        phone : "4765-5997 " ,
+    },
+    {
+        name : " Farmacia Farma-Best" ,
+        lat : -34.447827,
+        lng :-58.670425,
+        address : "Av. Constiuyentes 3107, Gral. Pacheco " ,
+        phone : " 03327-453371 " ,
+    },
+    {
+        name : " Farmacia Magrans" ,
+        lat : -34.41642,
+        lng :-58.699478,
+        address : "Av. Juan Domingo Perón 6474, Benavidez  " ,
+        phone : " 03327 48-6200" ,
+    },
+    {
+        name : " Farmacia Científica Arata y España S.C.S" ,
+        lat : -34.500432,
+        lng :-58.626799,
+        address : "Arata & España, Don Torcuato" ,
+        phone : " 4748-3594 y 6698-7239 " ,
+    },
+    {
+        name : " Farmacia Intifarma        " ,
+        lat : -34.9060339,
+        lng :-58.0180661,
+        address : "512 Nº3596, B1903 La Plata " ,
+        phone : "02214717465" ,
+    },
+    {
+        name : " Farmacia Altos del golf" ,
+        lat : -34.8955303,
+        lng :-58.068724,
+        address : "C. 467 4027, B1896 City Bell" ,
+        phone : "02214589999 " ,
+    },
+    {
+        name : " Farmacia Troiani" ,
+        lat : -34.8757054,
+        lng :-58.0800236,
+        address : "Calle 450 Sta Teresita 1501-1599, B1896 City Bell " ,
+        phone : "4801691 " ,
     }
 ]
