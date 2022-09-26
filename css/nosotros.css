@@ -11,11 +11,11 @@
    align-items: center;/*Alineo los elementos Verticalmente*/
    margin-right: 53px;/*Separo el texto de la imagen*/
 }
-#nosotros{
+/* #nosotros{
 	background-image: url(../img/fondo-contacto.png);
 	background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 .navbar-toggler{
