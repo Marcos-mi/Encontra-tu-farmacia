@@ -28,23 +28,27 @@
   nav a{
     font-family: 'Lato', serif;
     text-decoration: none;
-    color: #71C948;
+    color: #42961b;
 }
 nav a:hover{
-    color:#37ffca;
+    color:#a6e28a;
+    border-bottom:2px solid #3c8819 ;
 }
-nav{
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(12%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 12%, rgba(237,237,237,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );
+.navbar-toggler{
+    border: 3px solid  #71C948;   
+   }
+   .logo-celular{
+    height: 60px;
 }
-.active{
-    color: #8aa2a9;
+.logo-celular-form{
+    height: 450px;
+} 
+
+.active { 
+    color: #71C948;
+    box-shadow: 0 0  10px #8eada3;
+    padding: 3px;
+
 }
 
 
@@ -57,7 +61,7 @@ nav{
     font-family: 'Lato',sans-serif;
 } 
  h2{
-    color:#026d4d;
+    color:#71C948;
     font-size: 35px;
     font-weight: 900;
     font-family: 'Lato',sans-serif;
@@ -68,7 +72,7 @@ nav{
     margin: 0;
 }
 .border a{
-    color:#00694d;
+    color:#42961b;
     text-decoration: none;
 }
 a:hover{
@@ -100,7 +104,7 @@ a:hover{
     border: 2px solid #c3c6ce;
     transition: 0.5s ease-out;
     overflow: visible;
-    border-color: #026d4d;
+    border-color: #71C948;
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
    }
    
@@ -117,7 +121,7 @@ a:hover{
     width: 60%;
     border-radius: 1rem;
     border: none;
-    background-color: #026d4d;
+    background-color: #71C948;
     color: #fff;
     font-size: 1rem;
     padding: .5rem 1rem;
@@ -137,7 +141,9 @@ a:hover{
     font-size: 1.5em;
     font-weight: bold;
    }
-
+   #show{
+    display: none;
+   }
 /* Ver totales */
 .shadow__btn {
     padding: 10px 20px;
@@ -152,16 +158,18 @@ a:hover{
   }
   
   .shadow__btn {
-    background: #026d4d;
-    box-shadow: 0 0 25px rgb(4, 80, 58);
+    background: #71C948;
+    box-shadow: 0 0 25px #3c8819;
   }
   
   .shadow__btn:hover {
-    box-shadow: 0 0 5px rgba(10, 72, 26, 0.443),
-                0 0 25px rgba(10, 72, 26, 0.443),
-                0 0 50px rgba(10, 72, 26, 0.443),
-                0 0 100px rgba(10, 72, 26, 0.443);
+    -webkit-box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
+-moz-box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
+box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
   }
+.fa-sharp{
+    font-size: 10px;
+}
 /* FOOTER */
 
 .jp-morgan img{

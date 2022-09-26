@@ -52,6 +52,9 @@
                          <li class="nav-item px-sm-4  ps-2 py-sm-4 py-1">
                              <a class="nav-link> " href="opinion.html">Consultas & sugerencias</a>
                          </li>
+                         <li class="nav-item px-sm-4  ps-2 py-sm-4 py-1">
+                            <a class="nav-link> " href="opinion.html"><i class="fa-solid fa-user"></i></a>
+                        </li>
                          <li>
                             <buttons class="switch mt-4 col-lg-12 col-sm-1 col-2" id="switch">
                                 <span><i class="fas fa-sun"></i></span>
@@ -153,13 +156,61 @@
                 </article>
                 
                 <article class="col-sm-6 col-9 offset-sm-3 offset-2 col-lg-4 offset-lg-4  text-center mt-5 mb-1 ">
-                    <button class="shadow__btn">
+                    <button class="shadow__btn" onclick="mostrarLeerMas();">
                         Ver todos los consejos saludables
                     </button>
                 </article>
             </section>
         </section>
     </section>
+    <section id="show" class="container consejos-saludables">
+        <section class="row">
+    <section class="row  my-5">
+        <article class="col-sm-4 col-6 offset-3 offset-sm-2  col-lg-3 offset-lg-0  my-3 text-center">
+            <div class="card text-center">
+                <div class="card-details">
+                  <p class="text-title">Cuidá tu estomago</p>
+                  <p class="text-body">Descubrí como la acidez influye en tu bienestar.</p>
+                </div>
+                <button class="card-button">Leer más</button>
+              </div>
+        </article>
+        <article class="col-sm-6 col-6 offset-3 offset-sm-0  col-lg-3 offset-lg-0  my-3 text-center">
+            <div class="card text-center">
+                <div class="card-details">
+                  <p class="text-title">Hipoglucemia</p>
+                  <p class="text-body">Qué es, como prevenirlo y como tratarlo.</p>
+                </div>
+                <button class="card-button">Leer más</button>
+              </div>
+        </article>
+        <article class="col-sm-4 col-6 offset-3 offset-sm-2  col-lg-3 offset-lg-0  my-3 text-center">
+            <div class="card text-center">
+                <div class="card-details">
+                  <p class="text-title">Antigripales</p>
+                  <p class="text-body">Gripe y resfriados.</p>
+                </div>
+                <button class="card-button">Leer más</button>
+              </div>
+        </article>
+        <article class="col-sm-6 col-6 offset-3 offset-sm-0  col-lg-3 offset-lg-0  my-3 text-center ">
+            <div class="card text-center">
+                <div class="card-details">
+                  <p class="text-title">Micosis</p>
+                  <p class="text-body">Qué es, como prevenirlo y como tratarlo.</p>
+                </div>
+                <button class="card-button">Leer más</button>
+              </div>
+        </article>
+
+        <article class="col-sm-6 col-9 offset-sm-3 offset-2 col-lg-4 offset-lg-4  text-center mt-5 mb-1 ">
+            <button class="shadow__btn" onclick="ocultar();">
+                <i class="fa-sharp fa-solid fa-arrow-up"> Ver menos </i>
+            </button>
+        </article>
+    </section>
+</section>
+<script src="js/consejos-saludables.js"></script>
     <section class="container control-presion">
         <section class="row">
             <article class="col-12 text-center mt-2 mb-1">
@@ -207,7 +258,7 @@
                 </article>
             </section>
         </section>
-    </section>
+    </section> 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </main>
     <footer class="mt-auto">

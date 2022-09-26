@@ -11,14 +11,25 @@
     font-size: 1.2rem;
 }
 nav a{
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', serif;
     text-decoration: none;
-    color: #71C948	;
+    color: #42961b;
+}
+nav a:hover{
+    color:#a6e28a;
+    border-bottom:2px solid #3c8819 ;
+}
+.navbar-toggler{
+    border: 3px solid  #71C948;   
+   }
+
+.active { 
+    color: #71C948;
+    box-shadow: 0 0  10px #8eada3;
+    padding: 3px;
+
 }
 
-.active{
-	color:  #026d4d;
-}
 *{
 	margin: 0;
     padding: 0;

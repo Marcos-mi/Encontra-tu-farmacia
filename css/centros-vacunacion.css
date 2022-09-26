@@ -15,15 +15,33 @@
     color: #71C948;
 }
 .navbar-toggler{
+    border: 3px solid  #71C948;   
+   }
+   nav a{
+    font-family: 'Lato', serif;
+    text-decoration: none;
+    color: #42961b;
+}
+nav a:hover{
+    color:#a6e28a;
+    border-bottom:2px solid #3c8819 ;
+}
+.navbar-toggler{
     border: 3px solid  #97E8B5;   
    }
-nav a:hover{
-    color:#37ffca;
+   .logo-celular{
+    height: 60px;
 }
-.active{
-    color: #8aa2a9;
-}
+.logo-celular-form{
+    height: 450px;
+} 
 
+.active { 
+    color: #71C948;
+    box-shadow: 0 0  10px #8eada3;
+    padding: 3px;
+
+}
 /* FOOTER */
 .footer-a{
     color: black ;

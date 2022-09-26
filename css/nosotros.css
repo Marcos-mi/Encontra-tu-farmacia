@@ -14,11 +14,10 @@
 #nosotros{
 	background-image: url(../img/fondo-contacto.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+    background-size: cover;
 }
-.logo-celular{
-    height: 60px;
-}
+
+
 .navbar-toggler{
     border: 3px solid  #97E8B5;   
    }
@@ -30,14 +29,27 @@
   nav a{
     font-family: 'Lato', serif;
     text-decoration: none;
-    color: #71C948;
+    color: #42961b;
 }
 nav a:hover{
-    color:#37ffca;
+    color:#a6e28a;
+    border-bottom:2px solid #3c8819 ;
 }
+.navbar-toggler{
+    border: 3px solid  #71C948;   
+   }
+   .logo-celular{
+    height: 60px;
+}
+.logo-celular-form{
+    height: 450px;
+} 
 
-.active{
-    color: #8aa2a9;
+.active { 
+    color: #257400;
+    box-shadow: 0 0  10px #8eada3;
+    padding: 3px;
+
 }
 
 /* Cards */
@@ -53,6 +65,7 @@ main{
     flex-wrap: wrap; 
 
 }
+
 .card{
     justify-content: column;
     position: relative;
