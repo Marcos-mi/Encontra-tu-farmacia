@@ -104,6 +104,12 @@ main{
 .footer-a{
     color: black ;
 }
+.ft{
+    border: 1px solid  #71C948	;
+    border-radius: 20px;
+    padding: 8px;
+    }
+  
 /* Media Query */
 @media (max-width:768px) {
     .accordion{

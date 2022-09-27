@@ -107,6 +107,11 @@ nav a:hover{
   .swiper-slide .btn{
     margin-bottom: 7px;
   }
+  .ft{
+    border: 1px solid  #71C948	;
+    border-radius: 20px;
+    padding: 8px;
+    }
   
 
 
