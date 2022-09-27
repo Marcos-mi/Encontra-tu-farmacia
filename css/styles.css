@@ -144,6 +144,9 @@ a:hover{
    #show{
     display: none;
    }
+   #show-2{
+    display: none;
+   }
 /* Ver totales */
 .shadow__btn {
     padding: 10px 20px;
@@ -170,6 +173,8 @@ box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
 .fa-sharp{
     font-size: 10px;
 }
+/* MODAL */
+
 /* FOOTER */
 
 .jp-morgan img{
