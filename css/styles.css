@@ -195,6 +195,12 @@ box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
 .footer-a{
     color: black ;
 }
+.ft{
+    border: 1px solid  #71C948	;
+    border-radius: 20px;
+    padding: 8px;
+    }
+  
 @media (max-width: 750px){
     #inicio .texto-inicio{
             color: #fefeff;
