@@ -147,6 +147,13 @@ a:hover{
    #show-2{
     display: none;
    }
+   .btn-presion{
+    text-decoration: none;
+    color: white;
+   }
+   .btn-presion:hover{
+    color: #42961b;
+   }
 /* Ver totales */
 .shadow__btn {
     padding: 10px 20px;
