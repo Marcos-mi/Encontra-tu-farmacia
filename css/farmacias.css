@@ -133,7 +133,7 @@ nav,footer{
   nav a{
     font-family: 'Lato', serif;
     text-decoration: none;
-    color: #71C948;
+    color:#71C948;
 }
 .navbar-toggler{
     border: 3px solid  #71C948;   
