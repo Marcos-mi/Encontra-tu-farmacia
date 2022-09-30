@@ -86,7 +86,10 @@ a:hover{
 .texto-inicio{
     color: #fefeff;
     font-size: 22px;
-    font-family:'Oxygen',sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.explicacion{
+    font-size: 1rem;
 }
  /* Carousel*/
 .carousel{
