@@ -25,7 +25,7 @@ req.addEventListener('load', e => {
             
             datos.innerHTML += `
             <div class="swiper-slide text-center">
-                    <img src="img/hospitales/vacunacion.jpg" alt="">
+                    <img src="img/hospitales/vac2.jpg" alt="">
                     <h3>${post[i].efector}</h3>
                     <h4>${post[i].clasif_int}</h4>
                     <p>Direccion:${post[i].direccion}</p>
