@@ -5,12 +5,12 @@
 	background-size: cover;
 } */
 html,body {
- 
+ background-color: #eee;
     height : 50%;
    margin : 0 ;
     padding : 0 ;
   }
-  main{
+  .main{
     background-color: #eee;
   }
   #map {
@@ -119,6 +119,9 @@ html,body {
     left: 0px;
 }
 /* navbar */
+nav,footer{
+  background-color: white;
+}
 .logo-celular{
     height: 60px;
 }

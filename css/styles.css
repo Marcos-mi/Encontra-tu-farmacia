@@ -51,9 +51,12 @@ nav a:hover{
 
 }
 
-main{
+body{
     background-color: #eee;
-  }
+}
+footer, nav{
+    background-color: white;
+}
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
  h1{
@@ -196,7 +199,7 @@ box-shadow: -2px 8px 50px 11px rgba(113, 201, 72, 1);
     height: 80px;
 }
 .p-footer{
-    color: #71C948;
+ color: #71C948;
 }
 .ailu img{
     height: 90px;

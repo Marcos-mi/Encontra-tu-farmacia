@@ -16,8 +16,12 @@
 	background-repeat: no-repeat;
     background-size: cover;
 } */
-
-
+body{
+    background-color: #eee;
+}
+nav , footer{
+    background-color: white;
+}
 .navbar-toggler{
     border: 3px solid  #97E8B5;   
    }
@@ -51,9 +55,7 @@ nav a:hover{
     padding: 3px;
 
 }
-main{
-    background-color: #eee;
-  }
+
 
 /* Cards */
 *{
