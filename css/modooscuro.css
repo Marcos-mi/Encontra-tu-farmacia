@@ -82,3 +82,6 @@ body.dark nav{
     background: #000;
 }
 
+a:hover{
+  color: #71C948 !important;
+}
