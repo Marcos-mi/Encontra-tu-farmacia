@@ -72,6 +72,7 @@ main{
 }
 
 .card{
+    font-family: 'Lato', sans-serif;
     justify-content: column;
     position: relative;
     width: 218px;
@@ -168,7 +169,7 @@ box-shadow: 0px 5px 19px 15px rgba(0,0,0,0.74);
 p{
     font-weight: 900;
     font-size: 14px;
-    font-family: 'Arvo', serif;
+    font-family: 'Lato', sans-serif;
 }
 .titulo{
     color: #0a0a0a;
@@ -207,6 +208,7 @@ p{
 }
 .p-footer{
     color: #71C948;
+    
 }
 .ailu img{
     height: 90px;
