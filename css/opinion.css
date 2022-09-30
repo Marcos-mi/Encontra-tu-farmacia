@@ -34,6 +34,7 @@ nav a:hover{
 	margin: 0;
     padding: 0;
 }
+
 .row{
 	margin: 0;
 }
@@ -44,7 +45,9 @@ nav a:hover{
     height: 450px;
 } 
 /* main */
-
+main{
+    background-color: #eee;
+  }
 /* formulario */
 .formulario__grupo-input {
 	position: relative;
