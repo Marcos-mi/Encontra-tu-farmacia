@@ -54,9 +54,10 @@ nav a:hover{
 } 
 
 .active { 
+    border-radius: 15px;
     color: #71C948;
     box-shadow: 0 0  10px #8eada3;
-    padding: 3px;
+    padding: 5px;
 
 }
 
@@ -67,7 +68,7 @@ footer, nav{
     background-color: white;
 }
 .fa-solid:hover{
-    mesa
+    
     
 }
 /*//////////////////////////////////////////////////////////////////////////*/
