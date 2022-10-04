@@ -48,9 +48,9 @@ main{
 .accordion{
     margin-left: 15%;
     margin-bottom: 40px;
-    margin-top: 40px;
-    width: 70%;
-}
+    margin-top: 150px;
+    width: 90%;
+} 
 .accordion-item{
     background-color :  #9eebbb  !important; 
     border:none !important; 
@@ -86,6 +86,7 @@ main{
     box-shadow: none !important;
 }
 
+
 /* FOOTER */
 
 .jp-morgan img{
@@ -115,7 +116,7 @@ main{
 /* Media Query */
 @media (max-width:768px) {
     .accordion{
-        width: 100%;
+        width: 50%;
         margin-left: 0% ;
     }
 }

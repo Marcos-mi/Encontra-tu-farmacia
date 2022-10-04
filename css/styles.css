@@ -74,7 +74,7 @@ footer, nav{
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
  h1{
-    color:#026d4d;
+    color:#508b35;
     font-size: 40px;
     font-weight: 900;
     font-family: 'Lato',sans-serif;
@@ -86,7 +86,7 @@ footer, nav{
     font-family: 'Lato',sans-serif;
 } 
 .border{
-    background: linear-gradient(220.55deg, #97E8B5 0%, #5CB67F 100%);
+    background-color: #71C948;
     font-size: 20px;
     margin: 0;
 }
