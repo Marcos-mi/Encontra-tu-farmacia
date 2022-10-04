@@ -116,14 +116,18 @@ main{
 /* Media Query */
 @media (max-width:768px) {
     .accordion{
-        width: 50%;
-        margin-left: 0% ;
+        margin-left: none;
+        margin-bottom: 40px;
+        margin-top: 150px;
+        width: 90%;
     }
 }
 @media (max-width:425px) {
     .accordion{
-        width: 100%;
-        margin-left: 0%;
+        margin-left: none;
+        margin-bottom: 40px;
+        margin-top: 150px;
+
     }
 
 }
