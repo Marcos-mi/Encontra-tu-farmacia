@@ -68,12 +68,12 @@ main{
     color: black !important;
 }
 .accordion-button:hover{
-    color: #37ffca;
+    color: #91eb67;
 } 
 
 .accordion-button:active{
     border: none;
-    color: #00bd80;
+    color: #52a52c;
     background-color: #05b989;
 }   
 .accordio-header:active{
