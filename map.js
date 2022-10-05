@@ -14,7 +14,7 @@ const  setListener = ()=>{
     })
 }
 
-
+//Añadimos las funciones de display para que se muestren las farmacias cargadas en el array dependiendo de su zona
 const displayFarmaciasList = ()=>{
     let farmaciaHTML= "";
     farmacias.forEach(farmacia=>{
@@ -35,6 +35,13 @@ const displayFarmaciasListZn = ()=>{
         farmaciaHTML += `<h4 class="farmacia__individualNames">${farmaciasZn.name}</h4>`
     })
     document.getElementById("farmacias__names3").innerHTML = farmaciaHTML;
+}
+const displayFarmaciasListZs = ()=>{
+    let farmaciaHTML= "";
+    farmaciasZs.forEach(farmaciasZs=>{
+        farmaciaHTML += `<h4 class="farmacia__individualNames">${farmaciasZs.name}</h4>`
+    })
+    document.getElementById("farmacias__names4").innerHTML = farmaciaHTML;
 }
 
 const createMarker = (coord,name,address,phone,lng,lat)=>{
@@ -93,6 +100,15 @@ const createLocationMarkersZn = ()=>{
      createMarker(coord,name,address,phone)
  })
 }
+const createLocationMarkersZs = ()=>{
+ farmaciasZs.forEach(farmaciasZs=>{
+     let coord = new google.maps.LatLng(farmaciasZs.lat, farmaciasZs.lng)
+     let name = farmaciasZs.name;
+     let address = farmaciasZs.address
+     let phone = farmaciasZs.phone
+     createMarker(coord,name,address,phone)
+ })
+}
 //Se crea función la para que cuando el usuario haga click sobre el boton de busqueda se cree una marcador en su ubicación
 function mostrarUbicacionDelUsuario(map, marker){
     if ( navigator.geolocation ) {
@@ -130,10 +146,12 @@ function initMap(){
     createLocationMarkers()
     createLocationMarkersZo()
     createLocationMarkersZn()
+    createLocationMarkersZs();
     infoWindow = new google.maps.InfoWindow();
     displayFarmaciasList();
     displayFarmaciasListZo();
     displayFarmaciasListZn();
+    displayFarmaciasListZs();
     setListener();
     //Se llama a la funcion de autocompletado
     initAutocomplete();
