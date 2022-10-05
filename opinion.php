@@ -188,10 +188,6 @@ if($_POST){
                 <div class="formulario__grupo formulario__grupo-btn-enviar">
                     <p class="formulario__mensaje-exito alert alert-info p-2 my-3" id="formulario__mensaje-exito" role="alert"> SU MENSAJE SE HA ENVIADO CON ÉXITO. MUCHAS GRACIAS.</p>
                 </div>
-<<<<<<< HEAD:opinion.php
-=======
-                <div class="g-recaptcha" data-sitekey="6Lfvk1YiAAAAANJWqANbCG9jc4gWpLo3oKKQg6vj"></div>
->>>>>>> a2b287aa9ba234015a15d2dd9fd53109c103b308:opinion.html
                 <div class="formulario__grupo formulario__grupo-btn-enviar mt-3 text-center">
                     <button type="submit" class="formulario__btn">Enviar</button>
                 </div>
