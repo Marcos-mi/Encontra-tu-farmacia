@@ -110,15 +110,9 @@ html,body {
     margin-right: 1rem;
     color: lightblue;
   }
-  .gm-style-iw-t::after{
-    visibility: hidden;
-  }
   .gm-ui-hover-effect{
     background-color: #ffff !important;
     border-radius: 50% !important;
-  }
-  .gm-style-iw-d{
-    overflow: hidden !important;
   }
   .farmacias__names{
     cursor: pointer;

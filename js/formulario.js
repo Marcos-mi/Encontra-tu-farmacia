@@ -111,8 +111,8 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const novedades = document.getElementById('novedades');
-	const terminos = document.getElementById('terminos');
-	if(campos.nombre && campos.apellido && campos.correo && campos.telefono && campos.consulta && terminos.checked && novedades.checked){
+	const autenticador = document.getElementById('autenticador');
+	if(campos.nombre && campos.apellido && campos.correo && campos.telefono && campos.consulta && autenticador.checked && novedades.checked){
 		formulario.reset();
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
