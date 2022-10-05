@@ -1,3 +1,46 @@
+
+<?php
+if($_POST){
+    if($_POST){
+        $nombre = $_POST["nombre"];
+        $apellido = $_POST["apellido"];
+        $correo = $_POST["correo"];
+        $correo2 = $_POST["correo2"];
+        $telefono = $_POST["telefono"];
+        $mensaje = $_POST["cosnulta"];
+    
+        // Varios destinatarios
+        $para = "encontratufarmacia@gmail.com";
+        $titulo = 'Recibiste un mensaje desde tu Web';
+    
+        // mensaje
+        $cuerpo = "
+        Nombre: $nombre <br>
+        Nombre: $apellido <br>
+        Correo: $correo <br>
+        Correo2: $correo2 <br>
+        Telefono: $telefono <br>
+        Consulta: $mensaje
+        ";
+    
+        // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+        $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+        $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+    
+        // Cabeceras adicionales
+        $cabeceras .= 'To: info@encontratufarmacia.site' . "\r\n";
+        $cabeceras .= 'From: info@encontratufarmacia.site' . "\r\n";
+    
+        // Enviarlo
+        mail($para, $titulo, $cuerpo, $cabeceras);
+    }
+}
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,7 +48,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comentarios</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -16,7 +58,6 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/opinion.css">
     <link rel="stylesheet" href="css/modooscuro.css">
-
 </head>
 <body id="comentarios">
     <header>
@@ -74,7 +115,7 @@
             <a href="#"><img src="img/logo-v.4.3.png"  alt="logo" class="logo-celular-form"></a> 
         </div>
         <div class="col-sm-12 col-lg-4 col-12 my-5">
-            <form action="https://formsubmit.co/ encontratufarmacia@gmail.com " class="row" method="POST" id="formulario" >
+            <form action="" class="row" method="POST" id="formulario" >
             <form action="" class="formulario row" id="formulario">
                 <!-- Grupo: Nombre -->
                     <div class="formulario__grupo col-6 pb-3" id="grupo__nombre">
@@ -147,7 +188,6 @@
                 <div class="formulario__grupo formulario__grupo-btn-enviar">
                     <p class="formulario__mensaje-exito alert alert-info p-2 my-3" id="formulario__mensaje-exito" role="alert"> SU MENSAJE SE HA ENVIADO CON ÉXITO. MUCHAS GRACIAS.</p>
                 </div>
-                <div class="g-recaptcha" data-sitekey="6Lc8M1YiAAAAABaIVk0TzfW21SD8VKz7E3bNwRtd"></div>
                 <div class="formulario__grupo formulario__grupo-btn-enviar mt-3 text-center">
                     <button type="submit" class="formulario__btn">Enviar</button>
                 </div>
