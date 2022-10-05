@@ -48,12 +48,22 @@ html,body {
   }
   .mi-ubicacion{
     background-color: #71C948;
+    -webkit-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    border-radius: 24px;
   }
   .btn:focus{
     background-color: #71C948 !important;
+    -webkit-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
   }
   .mi-ubicacion:hover{
     background-color: #71C948;
+    -webkit-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 15px 38px 0px rgba(0,0,0,0.75);
   }
   .main{
     background: #eee !important ;

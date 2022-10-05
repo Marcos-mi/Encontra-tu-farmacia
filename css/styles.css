@@ -67,10 +67,7 @@ body{
 footer, nav{
     background-color: white;
 }
-.fa-solid:hover{
-    
-    
-}
+
 /*//////////////////////////////////////////////////////////////////////////*/
 /* TITLE */
  h1{
@@ -105,8 +102,11 @@ a:hover{
 .explicacion{
     font-size: 1rem;
 }
-.links-pit:hover{
-    color: #2a4b1b !important;
+.links-p:hover{
+    color: #ffae00 !important;
+}
+.links-i:hover{
+    color: #0501d3 !important;
 }
  /* Carousel*/
 .carousel{
