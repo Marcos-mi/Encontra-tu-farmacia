@@ -1,4 +1,4 @@
-const btnSwitch = document.querySelector('#switch');
+const btnSwitch = document.querySelector('#switch', 'a');
 const textdark = document.querySelectorAll('.mm');
 btnSwitch.addEventListener('click', () => {
     

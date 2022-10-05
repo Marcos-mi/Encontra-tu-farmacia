@@ -58,6 +58,7 @@ nav a:hover{
 	margin-bottom: 0;
 	display: none;
 	font-family:'Oxygen',sans-serif;
+	color: red;
 }
 
 .formulario__input-error-activo {
