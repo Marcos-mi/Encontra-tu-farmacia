@@ -110,8 +110,7 @@ textarea.forEach((textarea) => {
 formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
-	const novedades = document.getElementById('novedades');
-	if(campos.nombre && campos.apellido && campos.correo && campos.telefono && campos.consulta  && novedades.checked){
+	if(campos.nombre && campos.apellido && campos.correo && campos.telefono && campos.consulta){
 		formulario.reset();
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');

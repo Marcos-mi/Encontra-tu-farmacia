@@ -16,7 +16,7 @@ if($_POST){
         // mensaje
         $cuerpo = "
         Nombre: $nombre <br>
-        Nombre: $apellido <br>
+        Apellido: $apellido <br>
         Correo: $correo <br>
         Correo2: $correo2 <br>
         Telefono: $telefono <br>
@@ -115,8 +115,7 @@ if($_POST){
             <a href="#"><img src="img/logo-v.4.3.png"  alt="logo" class="logo-celular-form"></a> 
         </div>
         <div class="col-sm-12 col-lg-4 col-12 my-5">
-            <form action="" class="row" method="POST" id="formulario" >
-            <form action="" class="formulario row" id="formulario">
+            <form action="" class="formulario row" id="formulario" method="POST">
                 <!-- Grupo: Nombre -->
                     <div class="formulario__grupo col-6 pb-3" id="grupo__nombre">
                         <label for="usuario" class="formulario__label">Nombre</label>
@@ -175,11 +174,10 @@ if($_POST){
                     <p class="formulario__input-error">La consulta debe contener minimo 10 caracteres de longitud y maximo de 150 caracteres,solo puede contener letras,espacios,comas, numeros, guion y guion_bajo.</p>
                     </div>
                <!-- Grupo terminos y condiciones -->
-                <div class="form-check form-switch formulario__grupo pb-3 ms-2" id="grupo__novedades">
+<!--                 <div class="form-check form-switch formulario__grupo pb-3 ms-2" id="grupo__novedades">
                     <input class="form-check-input formulario__checkbox" type="checkbox" role="switch" id="novedades" name="novedades">
                     <label class="form-check-label formulario__label" for="flexSwitchCheckDefault">Deseo recibir novedades sobre la página</label>
-                </div>
-
+                </div> -->
                   <!-- Grupo errores y exitos -->
                 <div class="formulario__mensaje" id="formulario__mensaje">
                     <p class="alert alert-danger" role="alert"><i class="fas fa-exclamation-triangle" ></i> <b>ERROR:</b> OCURRIÓ UN ERROR DE VALIDACIÓN. POR FAVOR, CONFIRME LOS CAMPOS Y ENVÍE EL FORMULARIO DE NUEVO. </p>
