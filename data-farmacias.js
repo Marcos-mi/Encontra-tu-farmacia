@@ -328,23 +328,24 @@ let farmaciasZs = [
     },
     {
         name : "• Farmacia Elib-Ian " ,
-        lat : --34.8011178,
-        lng :--58.3980891,
+        lat : -34.8011178,
+        lng :-58.3980891,
         address : "Francisco Seguí 602, Adrogue" ,
         phone : "011-4214-1932" ,
     },
     {
-        name : "• Farmacia Saibene" ,
-        lat : -34.7431864,
-        lng :-58.3951835,
-        address : "Av. Maipú 202 " ,
-        phone : "4242-0051" ,
+        name : "• Soy tu Farmacia" ,
+        lat : -34.7292149,
+        lng :-58.2627274,
+        address : "Av. 12 de Octubre 402, Quilmes " ,
+        phone : " 4257-4680 " ,
     },
     {
-        name : "• FARMACIA SANAR 5 " ,
-        lat : -34.7085023,
-        lng :-58.2846995,
-        address : "Cramer 450, Bernal " ,
-        phone : "011-4251-6729 " ,
-    }
+        name : "•Farmacia Maga Shop" ,
+        lat : -34.7223027,
+        lng :-58.2916767,
+        address : "Moreno 745, Quilmes" ,
+        phone : "011-4254-9667 " ,
+    },
 ]
+
